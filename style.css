@@ -1,0 +1,13 @@
+.greeting {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.pronunciation  {
+  font-family: 'PT Sans', sans-serif;
+  color: #bdbdbd;
+  font-style: italic;
+  font-size: 0.7em;
+  padding-bottom: 20px;
+}
