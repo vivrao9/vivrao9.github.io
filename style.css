@@ -12,3 +12,9 @@
   padding-bottom: 20px;
   padding-top: -20px;
 }
+
+.navbar-hed {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
