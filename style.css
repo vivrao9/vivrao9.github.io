@@ -60,7 +60,7 @@
   transition: background-position 0.5s;
 }
 
-.section-hed  {
+.section-hed:hover  {
   background-position: -100% 100%;
 }
 
