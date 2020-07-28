@@ -31,3 +31,12 @@
   font-weight: 700;
   color: black;
 }
+
+.section-head {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: .5px;
+  font-weight: 700;
+  color: black;
+  background: linear-gradient(to top, yellow 50%, transparent 50%);
+}
