@@ -38,5 +38,5 @@
   letter-spacing: .5px;
   font-weight: 700;
   color: black;
-  background: linear-gradient(to top, yellow 50%, transparent 50%);
+  background: linear-gradient(to top, #FFFF00 50%, transparent 50%);
 }
