@@ -59,7 +59,7 @@
   letter-spacing: .5px;
   font-weight: 700;
   color: black;
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFD0AE 50%);
+  background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #FFD0AE 40%);
 }
 
 .subhead  {
