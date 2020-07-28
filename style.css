@@ -4,6 +4,11 @@
   font-size: 2rem;
 }
 
+.copy {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+}
+
 .pronunciation  {
   font-family: 'PT Sans', sans-serif;
   color: #bebebe;
@@ -32,6 +37,15 @@
   color: black;
 }
 
+.portfolio-link {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  letter-spacing: .5px;
+  font-weight: 700;
+  color: white;
+  background-color: black;
+}
+
 .section-hed {
   font-family: 'PT Sans', sans-serif;
   font-size: 1.6rem;
@@ -44,6 +58,10 @@
   background-repeat: repeat-x;
   background-position: 0 100%;
   transition: background-position 0.5s;
+}
+
+.section-hed  {
+  background-position: -100% 100%;
 }
 
 .subhead  {
