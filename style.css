@@ -52,12 +52,7 @@
   letter-spacing: .5px;
   font-weight: 700;
   color: black;
-  background-image: linear-gradient(to right, transparent 50%, #FFFF00 50%);
-  background-origin: 0;
-  background-size: 200% 50%;
-  background-repeat: repeat-x;
-  background-position: 0 100%;
-  transition: background-position 0.5s;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFD0AE 50%);
 }
 
 .section-hed:hover  {
