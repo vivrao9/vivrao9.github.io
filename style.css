@@ -23,3 +23,11 @@
   font-weight: 500;
   font-size: 1.8rem;
 }
+
+.portfolio-head {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: .5px;
+  font-weight: 700;
+  color: black;
+}
