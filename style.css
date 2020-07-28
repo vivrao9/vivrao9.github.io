@@ -67,3 +67,29 @@
   font-weight: normal;
   color: black;
 }
+
+.resume_line-item  {
+  font-family: 'PT Serif', serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.resume_line-item  {
+  font-family: 'PT Serif', serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.resume_place  {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.resume_duration  {
+  font-family: 'PT Serif', serif;
+  font-weight: normal;
+  font-size: 1rem;
+  text-align: right;
+}
