@@ -45,3 +45,10 @@
   background-position: 0 100%;
   transition: background-position 0.5s;
 }
+
+.subhead  {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: black;
+}
