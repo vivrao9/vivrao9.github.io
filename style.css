@@ -89,6 +89,7 @@
 }
 
 .resume_duration  {
+  position:absolute;
   font-family: 'PT Serif', serif;
   font-weight: 400;
   font-style: italic;
