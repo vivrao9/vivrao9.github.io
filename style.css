@@ -89,8 +89,17 @@
 
 .resume_duration  {
   font-family: 'PT Serif', serif;
-  font-weight: normal;
+  font-weight: 400;
   font-style: italic;
   font-size: 1rem;
   text-align: right;
+}
+
+.opening-line-item  {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.external-link  {
+  
 }
