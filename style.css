@@ -78,7 +78,7 @@
 .resume_line-item  {
   font-family: 'PT Serif', serif;
   font-weight: normal;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 .resume_place  {
@@ -94,6 +94,7 @@
   font-style: italic;
   font-size: 0.95rem;
   text-align: right;
+  margin-top: 1px;
 }
 
 .opening-line-item  {
