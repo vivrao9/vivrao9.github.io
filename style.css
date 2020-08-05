@@ -116,7 +116,7 @@
   transition: 0.5s;
 }
 
-.resume-pdf {
+.a > .resume-pdf {
   margin-top: 15px;
   border: solid 1px black;
   width: 200px;
