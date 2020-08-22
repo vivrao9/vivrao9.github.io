@@ -209,6 +209,8 @@
                         d.severity = +d.severity;
                         d.aestdat = d3.timeParse("%d/%m/%Y")(d.aestdat);
                         d.aestdat = d3.timeFormat("%m/%d/%Y")(d.aestdat);
+                        d.rando_date = d3.timeParse("%d/%m/%Y")(d.rando_date);
+                        d.rando_date = d3.timeFormat("%m/%d/%Y")(d.rando_date);
                         d.dur = +d.dur;
                         d.armn = +d.armn;
                       });
