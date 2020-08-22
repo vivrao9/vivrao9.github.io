@@ -253,7 +253,7 @@
                 					d3.select("#tooltip")
                 						.style("left", xPos + "px")
                 						.style("top", yPos + "px")
-                            .html("<p><b>Randomization date: </b>" + d.rando_date + "<br /><p><b>High level event: </b>" + d.aebodsys + "</p><p><b>Low level event: </b>" + d.aept + "</p><p><b>Duration: </b>" + d.dur + " days</p>");
+                            .html("<p><b>Randomization date: </b>" + d.rando_date + "<br /><p><b>High level event: </b>" + d.aebodsys + "</p><p><b>Low level event: </b>" + d.aept + "</p><p><b>Duration: </b>" + d.dur + " days</p><p>This subject has reported <b>" + (d.repeatnum-1) + "</b> before this event.</p>");
 
                         //add highlight to active polygon
                           d3.select(this)
