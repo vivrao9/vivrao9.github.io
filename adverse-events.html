@@ -142,6 +142,7 @@
                     .attr("transform",
                           "translate(" + margin.left + "," + margin.top + ")");
 
+                //create labels for each of the horizontal axes, i.e. Mild, Moderate, Severe
                 svg.append("text")
                    .text("Mild")
                    .attr("transform",
@@ -199,9 +200,11 @@
                     .attr("height", "15px")
                     .attr("width", "15px");
 
+                    //load data from GitHub
                 d3.csv("https://raw.githubusercontent.com/vivrao9/Wonderful-Wednesdays/master/data/2020/2020-08-12/cleaned_df.csv", function(error, data) {
                       if (error) throw error;
 
+                      //format data accordingly
                       data.forEach(function(d) {
                         d.severity = +d.severity;
                         d.aestdat = d3.timeParse("%d/%m/%Y")(d.aestdat);
@@ -219,6 +222,7 @@
                           .append("polygon")
                           .attr("points",function(d) {
 
+                            //create different coordinates for each polygon based on which axis they lie on
                               if (d.aesevn == 1)  { //if Mild, we'd want to add bar to the first axis
                                 var left = x(d.aestdat) - overlap;
                                 var top = y(d.dur + height/11.25);
@@ -244,6 +248,8 @@
                         }
                       })
                           .style("opacity", "0.2")
+                          .transition()
+                          .duration(375)
                           //show tooltip on hover
                           .on("mouseover", function(d)  {
                         var xPos = d3.event.pageX;
@@ -310,7 +316,7 @@
 
                 <p class="copy">The above visualization is based on <a href="https://github.com/VIS-SIG/Wonderful-Wednesdays/tree/master/data/2020/2020-08-12" target="_blank" class="copy-link">clinical trial data</a> for an active treatment for eczema compared to placebo in adolescents that are unresponsive to standard care.</p>
 
-                <p class="copy">An analysis revealed that more adverse events were recorded for subjects that were assigned to an intervention treatment arm,compared to those assigned to a placebo.</p>
+                <p class="copy">An analysis revealed that more adverse events were recorded for subjects that were assigned to an intervention treatment arm, compared to those assigned to a placebo.</p>
 
                 <p class="copy">See some of the insights below:</p>
 
