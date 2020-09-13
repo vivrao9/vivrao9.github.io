@@ -100,7 +100,7 @@
 .opening-line-item  {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .external-link > a  {
