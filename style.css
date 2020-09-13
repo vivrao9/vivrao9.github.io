@@ -95,13 +95,12 @@
   font-style: italic;
   font-size: 0.95rem;
   right: 5px;
-  margin-top: 20px;
 }
 
 .opening-line-item  {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .external-link > a  {
