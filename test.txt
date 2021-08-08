@@ -1,0 +1,1 @@
+<p class='copy'>I love puzzles and do the New York Times' sudoku every day. I last did it on <code id='latest_date'></code> and finished it in $latest_date id='latest_time'></code>.</p>
