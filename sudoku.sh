@@ -3,7 +3,7 @@
 
 
 # download latest sudoku sheet
-usr/bin/wget -oq --no-check-certificate 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSoqnPWcu7Vi2cUAIcH78PFITa-gaVWhQVeEpM4X0Nc4Nd0fHZk98xb221AL3byyU-qAiO4UcZmGrMl/pub?gid=0&single=true&output=csv'
+/usr/bin/wget -oq --no-check-certificate 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSoqnPWcu7Vi2cUAIcH78PFITa-gaVWhQVeEpM4X0Nc4Nd0fHZk98xb221AL3byyU-qAiO4UcZmGrMl/pub?gid=0&single=true&output=csv'
 
 # define variables of interest
 latest_date=$(tail -n 1 'pubgid=0&single=true&output=csv' | cut -d , -f 1)
