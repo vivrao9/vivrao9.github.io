@@ -1,0 +1,445 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<!-- This webpage was originally hosted at decastro.cool/vivek-utilities.
+I'm uploading a version here for backup. -VNR, 12/2/21 -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Utilities Usage</title>
+
+
+
+     <style>
+     body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Popup Style Overrides */
+        .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip, .mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip, .mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip { border-top-color: rgba(255, 255, 255, 0.7);}
+        .mapboxgl-popup-anchor-top .mapboxgl-popup-tip, .mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip, .mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip { border-bottom-color: rgba(255, 255, 255, 0.7);}
+        .mapboxgl-popup-anchor-left .mapboxgl-popup-tip { border-right-color: rgba(255, 255, 255, 0.7);}
+        .mapboxgl-popup-anchor-right .mapboxgl-popup-tip { border-left-color: rgba(255, 255, 255, 0.7);}
+        .mapboxgl-popup-content { width: 150px; background-color: rgba(0, 0, 0, 0.5); font-family: 'Open Sans', sans-serif;}
+        .mapboxgl-popup-content #BldgName { margin-top: 2px; margin-bottom: 0px; font-size: 15px; font-family: 'Helvetica'; font-weight: bold;}
+        .mapboxgl-popup-content #Data { margin-bottom: 5px; font-size: 12px; font-family: 'Helvetica';}
+        .mapboxgl-popup-content #FullAddresses { margin-bottom: 0px; font-size: 11px;}
+
+/* Menu Bar/Toggle */
+#menu {
+		  background: #800000;
+		  position: absolute;
+		  z-index: 2;
+		  top: 10px;
+		  right: 10px;
+		  border-radius: 3px;
+		  width: 120px;
+		  border: 1px solid rgba(0,0,0,0.4);
+		  /*font-family: 'Open Sans', sans-serif;*/
+		  font-family: 'Oswald', sans-serif;
+      color: #000000;
+		}
+
+		#menu a {
+		  font-size: 12px;
+		  color: #ffffff;
+		  display: block;
+		  margin: 0;
+		  padding: 0;
+		  padding: 10px;
+		  text-decoration: none;
+		  border-bottom: 1px solid rgba(0,0,0,0.25);
+		  text-align: center;
+      z-index: 2;
+		}
+
+		#menu a.active {
+		  background-color: #ffffff;
+		  color: #000000;
+		}
+
+		#menu a:hover, #menu a:hover {
+		  background-color: #bfbfbf;
+		  color: #000000;
+		}
+    </style>
+
+
+</head>
+
+<body>
+
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/turf/v3.0.11/turf.min.js'></script>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+<script src='https://npmcdn.com/@turf/turf@5.0.4/turf.min.js'></script>
+
+<body>
+<nav id="menu"></nav>
+<div id='map'></div>
+</body>
+
+
+
+    <script  src="js/index.js"></script>
+    <script>
+    mapboxgl.accessToken =
+  "pk.eyJ1IjoicXVlMzIxNiIsImEiOiJjaWhxZmMxMDUwMDBzdXhsdWh0ZDkyMzVqIn0.sz3lHuX9erctIPE2ya6eCw";
+
+var url =
+  "https://raw.githubusercontent.com/vivrao9/utilitiesatiu/master/Academic%20Buildings%20%5BCleaned_03.20%5D.json";
+
+var map = new mapboxgl.Map({
+  container: "map",
+  style: "mapbox://styles/mapbox/light-v9",
+  center: [-86.51437, 39.169149],
+  zoom: 15,
+  pitch: 60,
+  bearing: 18
+});
+
+map.on("load", function() {
+  map.addLayer({
+    id: "Electric",
+    type: "fill-extrusion",
+    source: {
+      type: "geojson",
+      data: {
+        type: "FeatureCollection",
+        features: []
+      }
+    },
+    paint: {
+      "fill-extrusion-color": "#cc0000",
+      "fill-extrusion-height": ["/", ["get", "Electric"], 10000],
+      "fill-extrusion-opacity": 0.8
+    }
+  });
+
+  map.addLayer({
+    id: "Water",
+    type: "fill-extrusion",
+    source: {
+      type: "geojson",
+      data: {
+        type: "FeatureCollection",
+        features: []
+      }
+    },
+    paint: {
+      "fill-extrusion-color": "#8fcccc",
+      "fill-extrusion-height": ["/", ["get", "Water"], 7],
+      "fill-extrusion-opacity": 0.8
+    }
+  });
+
+  map.addLayer({
+    id: "Natural Gas",
+    type: "fill-extrusion",
+    source: {
+      type: "geojson",
+      data: {
+        type: "FeatureCollection",
+        features: []
+      }
+    },
+    paint: {
+      "fill-extrusion-color": "#FFBF00",
+      "fill-extrusion-height": ["/", ["get", "NaturalGas"], 8],
+      "fill-extrusion-opacity": 0.8
+    }
+  });
+
+  map.addLayer({
+    id: "Steam",
+    type: "fill-extrusion",
+    source: {
+      type: "geojson",
+      data: {
+        type: "FeatureCollection",
+        features: []
+      }
+    },
+    paint: {
+      "fill-extrusion-color": "#7D7D7D",
+      "fill-extrusion-height": ["/", ["get", "Steam"], 40],
+      "fill-extrusion-opacity": 0.8
+    }
+  });
+
+  map.addLayer({
+    id: "Chilled Water",
+    type: "fill-extrusion",
+    source: {
+      type: "geojson",
+      data: {
+        type: "FeatureCollection",
+        features: []
+      }
+    },
+    paint: {
+      "fill-extrusion-color": "#e3f2fd",
+      "fill-extrusion-height": ["/", ["get", "ChilledWater"], 5000],
+      "fill-extrusion-opacity": 0.8
+    }
+  });
+
+    // Add our data source to the map object
+  map.addSource("data", {
+    type: "geojson",
+    data: url
+  });
+
+  map.addLayer({
+    id: "total",
+    type: "circle",
+    source: "data",
+    paint: {
+      "circle-color": "#cc0000",
+      "circle-opacity": 0.1,
+      "circle-radius": {
+        base: 1.75,
+        stops: [[22, 2], [22, 18]]
+      }
+    }
+  });
+
+  map.on("sourcedata", function(e) {
+    if (e.sourceId !== "data") return;
+    if (e.isSourceLoaded !== true) return;
+
+    var data = {
+      type: "FeatureCollection",
+      features: []
+    };
+
+    map.querySourceFeatures("data").forEach(function(f) {
+      var object = turf.centerOfMass(f);
+      var center = object.geometry.coordinates;
+      var radius = 10;
+      var options = {
+        steps: 16,
+        units: "yards",
+        properties: object.properties
+      };
+      data.features.push(turf.circle(center, radius, options));
+    });
+    map.getSource("Electric").setData(data);
+    map.getSource("Water").setData(data);
+    map.getSource("Natural Gas").setData(data);
+    map.getSource("Steam").setData(data);
+    map.getSource("Chilled Water").setData(data);
+  });
+
+  // Create a popup, but don't add it to the map yet.
+  var popup = new mapboxgl.Popup({
+    closeButton: false,
+    closeOnClick: false
+  });
+
+  //Popup for each building's electricity consumption
+  map.on("mousemove", "Electric", function(e) {
+    //Change the cursor style as a UI indicator.
+    map.getCanvas().style.cursor = "pointer";
+
+    //Call information to display
+    var info =
+      '<p id="BldgName"><b>' +
+      e.features[0].properties.BldgName +
+      '</b></p><p id="Data"><b>Electric:</b> ' +
+      e.features[0].properties.Electric +
+      " kWh</p>";
+
+    //Populate the popup and set its coordinates based on the feature found.
+    popup
+      .setLngLat(e.lngLat) //features[0].geometry.coordinates)
+      .setHTML(info)
+      .addTo(map);
+  });
+
+  map.on("mouseleave", "Electric", function() {
+    map.getCanvas().style.cursor = "";
+    popup.remove();
+  });
+
+  //Popup for each building's water consumption
+  map.on("mousemove", "Water", function(e) {
+    //Change the cursor style as a UI indicator.
+    map.getCanvas().style.cursor = "pointer";
+
+    //Call information to display
+    var info =
+      '<p id="BldgName"><b>' +
+      e.features[0].properties.BldgName +
+      '</b></p><p id="Data"><b>Water:</b> ' +
+      e.features[0].properties.Water +
+      " Kgal</p>";
+
+    //Populate the popup and set its coordinates based on the feature found.
+    popup
+      .setLngLat(e.lngLat) //features[0].geometry.coordinates)
+      .setHTML(info)
+      .addTo(map);
+  });
+
+  map.on("mouseleave", "Water", function() {
+    map.getCanvas().style.cursor = "";
+    popup.remove();
+  });
+
+  //Popup for each building's natural gas consumption
+  map.on("mousemove", "Natural Gas", function(e) {
+    //Change the cursor style as a UI indicator.
+    map.getCanvas().style.cursor = "pointer";
+
+    //Call information to display
+    var info =
+      '<p id="BldgName"><b>' +
+      e.features[0].properties.BldgName +
+      '</b></p><p id="Data"><b>Natural Gas:</b> ' +
+      e.features[0].properties.NaturalGas +
+      " Dkthm</p>";
+
+    //Populate the popup and set its coordinates based on the feature found.
+    popup
+      .setLngLat(e.lngLat) //features[0].geometry.coordinates)
+      .setHTML(info)
+      .addTo(map);
+  });
+
+  map.on("mouseleave", "Natural Gas", function() {
+    map.getCanvas().style.cursor = "";
+    popup.remove();
+  });
+
+  //Popup for each building's steam consumption
+  map.on("mousemove", "Steam", function(e) {
+    //Change the cursor style as a UI indicator.
+    map.getCanvas().style.cursor = "pointer";
+
+    //Call information to display
+    var info =
+      '<p id="BldgName"><b>' +
+      e.features[0].properties.BldgName +
+      '</b></p><p id="Data"><b>Steam:</b> ' +
+      e.features[0].properties.Steam +
+      " kLb</p>";
+
+    //Populate the popup and set its coordinates based on the feature found.
+    popup
+      .setLngLat(e.lngLat) //features[0].geometry.coordinates)
+      .setHTML(info)
+      .addTo(map);
+  });
+
+  map.on("mouseleave", "Steam", function() {
+    map.getCanvas().style.cursor = "";
+    popup.remove();
+  });
+
+  //Popup for each building's chilled water consumption
+  map.on("mousemove", "Chilled Water", function(e) {
+    //Change the cursor style as a UI indicator.
+    map.getCanvas().style.cursor = "pointer";
+
+    //Call information to display
+    var info =
+      '<p id="BldgName"><b>' +
+      e.features[0].properties.BldgName +
+      '</b></p><p id="Data"><b>Chilled Water:</b> ' +
+      e.features[0].properties.ChilledWater +
+      " Ton Hr</p>";
+
+    //Populate the popup and set its coordinates based on the feature found.
+    popup
+      .setLngLat(e.lngLat) //features[0].geometry.coordinates)
+      .setHTML(info)
+      .addTo(map);
+  });
+
+  map.on("mouseleave", "Chilled Water", function() {
+    map.getCanvas().style.cursor = "";
+    popup.remove();
+  });
+
+  //Add Layer Toggle
+  var toggleableLayerIds = [
+    "Electric",
+    "Water",
+    "Steam",
+    "Natural Gas",
+    "Chilled Water",
+  ];
+
+  for (var i = 0; i < toggleableLayerIds.length; i++) {
+    var id = toggleableLayerIds[i];
+
+    var link = document.createElement("a");
+    link.href = "#";
+    link.className = "";
+    link.textContent = id;
+    link.id = id.replace(" ", "-") + "-tog";  // add ID to toggle links
+
+    // Hide all layers except Electric on load
+    if (id == "Electric") {
+      link.className = "";
+      map.setLayoutProperty(id, "visibility", "visible");
+    } else {
+      link.className = "active";
+      map.setLayoutProperty(id, "visibility", "none");
+    }
+
+    // On click show clicked layer and hide all others
+    link.onclick = function(e) {
+      var clickedLayer = this.textContent;
+      e.preventDefault();
+      e.stopPropagation();
+
+      var visibility = map.getLayoutProperty(clickedLayer, "visibility");
+
+      for (var t = 0; t < toggleableLayerIds.length; t++) {
+        var tog = toggleableLayerIds[t].replace(" ", "-") + "-tog";
+
+        if (toggleableLayerIds[t] != clickedLayer) {
+          map.setLayoutProperty(toggleableLayerIds[t], "visibility", "none");
+          document.getElementById(tog).className = "active";
+        } else {
+          map.setLayoutProperty(toggleableLayerIds[t], "visibility", "visible");
+          this.className = "";
+        }
+      }
+    };
+
+    var layers = document.getElementById("menu");
+    layers.appendChild(link);
+  }
+
+  var nav = new mapboxgl.NavigationControl();
+  map.addControl(nav, "bottom-left");
+
+  // var fscr = new mapboxgl.FullscreenControl();
+  // map.addControl(fscr, "top-left");
+
+	var fscr = new mapboxgl.FullscreenControl();
+  map.addControl(fscr, "top-left");
+
+});
+</script>
+
+
+
+</body>
+
+</html>
