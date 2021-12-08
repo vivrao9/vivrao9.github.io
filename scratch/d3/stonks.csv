@@ -1,0 +1,449 @@
+Sector,Ticker,Company,Market Cap ($M USD),P/E
+Utilities,AEP,American Electric Power,"$41,353.00 ",17.5
+Utilities,AES,AES,"$15,746.00 ",30.3
+Utilities,NI,NiSource,"$9,908.00 ",23.2
+Utilities,ATO,Atmos Energy,"$12,420.00 ",18.3
+Utilities,NEE,NextEra Energy,"$173,962.00 ",74.6
+Utilities,CMS,CMS Energy,"$17,837.00 ",21.5
+Utilities,ETR,Entergy,"$21,116.00 ",17
+Utilities,SRE,Sempra Energy,"$39,660.00 ",35.3
+Utilities,SO,Southern,"$66,514.00 ",22.5
+Utilities,PPL,PPL,"$21,350.00 ",25.2
+Utilities,D,Dominion Energy,"$60,272.00 ",23.5
+Utilities,PNW,Pinnacle West Capital,"$7,478.00 ",13.2
+Utilities,AEE,Ameren,"$21,919.00 ",22.3
+Utilities,AWK,American Water Works Co,"$31,463.00 ",41.2
+Utilities,ES,Eversource Energy,"$29,316.00 ",24.8
+Utilities,EVRG,Evergy,"$14,963.00 ",17
+Utilities,DTE,DTE Energy,"$21,597.00 ",21.2
+Utilities,DUK,Duke Energy,"$77,103.00 ",26
+Utilities,FE,FirstEnergy,"$21,472.00 ",20.9
+Utilities,ED,Consolidated Edison,"$28,423.00 ",24
+Utilities,LNT,Alliant Energy,"$14,334.00 ",22.6
+Utilities,EIX,Edison,"$25,087.00 ",32.5
+Utilities,EXC,Exelon,"$52,968.00 ",31.7
+Utilities,NRG,NRG Energy,"$8,968.00 ",3.7
+Utilities,XEL,Xcel Energy,"$35,331.00 ",22.5
+Utilities,WEC,WEC Energy Gr,"$28,543.00 ",21.8
+Technology,AKAM,Akamai Technologies,"$18,564.00 ",31.4
+Technology,CSCO,Cisco Systems,"$235,173.00 ",20.7
+Technology,SNPS,Synopsys,"$54,270.00 ",74.3
+Technology,QRVO,Qorvo,"$16,764.00 ",15.6
+Technology,AMAT,Applied Materials,"$136,540.00 ",23.6
+Technology,AMD,Advanced Micro Devices,"$195,524.00 ",49.8
+Technology,QCOM,Qualcomm,"$205,787.00 ",23.3
+Technology,PTC,PTC,"$13,003.00 ",27.4
+Technology,CTSH,Cognizant Tech Solns,"$41,867.00 ",22.4
+Technology,MU,Micron Technology,"$96,357.00 ",16.8
+Technology,CTXS,Citrix Systems,"$10,272.00 ",32.7
+Technology,ANET,Arista Networks,"$9,725.00 ",51.4
+Technology,ANSS,Ansys,"$34,701.00 ",74.8
+Technology,TRMB,Trimble,"$21,719.00 ",39.3
+Technology,IT,Gartner,"$26,726.00 ",40.3
+Technology,GRMN,Garmin,"$26,778.00 ",23.8
+Technology,APH,Amphenol,"$49,594.00 ",35
+Technology,JKHY,Jack Henry & Associates,"$11,270.00 ",35.4
+Technology,INTU,Intuit,"$196,704.00 ",91.4
+Technology,AVGO,Broadcom,"$232,291.00 ",41.8
+Technology,MSI,Motorola Solutions,"$43,939.00 ",35.8
+Technology,NLOK,NortonLifeLock,"$14,723.00 ",16.8
+Technology,INTC,Intel,"$204,761.00 ",9.7
+Technology,MSFT,Microsoft,"$2,527,410.00 ",37.7
+Technology,IBM,IBM,"$106,213.00 ",22.9
+Technology,JNPR,Juniper Networks,"$10,352.00 ",70.8
+Technology,HPQ,HP,"$41,409.00 ",6.7
+Technology,ORCL,Oracle,"$254,068.00 ",19.8
+Technology,HPE,Hewlett Packard,"$19,110.00 ",18.7
+Technology,KEYS,Keysight Technologies,"$35,968.00 ",41.3
+Technology,KLAC,KLA,"$62,747.00 ",23.5
+Technology,LDOS,Leidos Holdings,"$12,707.00 ",16.7
+Technology,GLW,Corning,"$32,821.00 ",38.1
+Technology,IPGP,IPG Photonics,"$8,698.00 ",33.5
+Technology,AAPL,Apple,"$2,628,961.00 ",28.5
+Technology,FTV,Fortive,"$27,333.00 ",15.9
+Technology,TXN,Texas Instruments,"$179,514.00 ",24.9
+Technology,BR,Broadridge Financial Soln,"$20,460.00 ",37.6
+Technology,TER,Teradyne,"$25,175.00 ",29.1
+Technology,FLT,Fleetcor Technologies,"$17,292.00 ",22
+Technology,NXPI,NXP Semiconductors,"$59,552.00 ",39.5
+Technology,DXC,DXC Technology,"$7,824.00 ",20.3
+Technology,FISV,Fiserv,"$64,352.00 ",50.6
+Technology,FFIV,F5,"$14,148.00 ",43.3
+Technology,ACN,Accenture,"$231,066.00 ",39.9
+Technology,ADBE,Adobe,"$327,107.00 ",57.1
+Technology,ADI,Analog Devices,"$98,453.00 ",53.1
+Technology,TEL,TE Connectivity,"$52,010.00 ",23.5
+Technology,LRCX,Lam Research,"$95,818.00 ",23
+Technology,CDNS,Cadence Design Systems,"$51,738.00 ",75.3
+Technology,CDW,CDW,"$26,438.00 ",27.4
+Technology,NTAP,NetApp,"$20,465.00 ",24.3
+Technology,MCHP,Microchip Technology,"$46,257.00 ",74.2
+Technology,TDY,Teledyne Technologies,"$20,149.00 ",42.9
+Technology,ADSK,Autodesk,"$57,413.00 ",44.1
+Technology,ZBRA,Zebra Technologies,"$32,426.00 ",38.8
+Technology,XLNX,Xilinx,"$57,775.00 ",72.3
+Technology,SWKS,Skyworks Solutions,"$25,583.00 ",17.3
+Technology,STX,Seagate Tech Hldgs,"$23,167.00 ",15.4
+Technology,WDC,Western Digital,"$18,377.00 ",12.3
+Technology,VRSN,VeriSign,"$27,154.00 ",45.1
+Real Estate,CCI,Crown Castle Intl,"$80,316.00 ",61.4
+Real Estate,AVB,AvalonBay Communities,"$33,646.00 ",33.3
+Real Estate,SPG,Simon Property Group,"$52,558.00 ",26
+Real Estate,CBRE,CBRE Group,"$32,783.00 ",22.9
+Real Estate,VTR,Ventas,"$19,607.00 ",91
+Real Estate,WELL,Welltower,"$35,709.00 ",74.7
+Real Estate,WY,Weyerhaeuser,"$29,025.00 ",11.7
+Real Estate,IRM,Iron Mountain,"$13,568.00 ",21.3
+Real Estate,DLR,Digital Realty Trust,"$47,899.00 ",71.6
+Real Estate,DRE,Duke Realty,"$22,641.00 ",24.5
+Real Estate,EQR,Equity Residential,"$32,333.00 ",31.6
+Real Estate,ESS,Essex Property Trust,"$22,552.00 ",50.4
+Real Estate,PSA,Public Storage,"$58,197.00 ",39.6
+Real Estate,O,Realty Income,"$39,489.00 ",54.9
+Real Estate,MAA,Mid-America Apartment,"$24,178.00 ",56.4
+Real Estate,EXR,Extra Space Storage,"$27,186.00 ",37.7
+Real Estate,FRT,Federal Realty Investment,"$9,799.00 ",41.7
+Real Estate,AMT,American Tower,"$121,567.00 ",48.6
+Real Estate,KIM,Kimco Realty,"$14,267.00 ",12
+Real Estate,BXP,Boston Properties,"$17,235.00 ",54
+Real Estate,PLD,Prologis,"$113,323.00 ",57.8
+Real Estate,REG,Regency Centers,"$12,114.00 ",36.5
+Real Estate,ARE,Alexandria Real Estate,"$31,807.00 ",30.2
+Industrials,LHX,L3Harris Technologies,"$42,125.00 ",28.4
+Industrials,GNRC,Generac Hldgs,"$26,786.00 ",51.6
+Industrials,TT,Trane Technologies,"$45,841.00 ",34.4
+Industrials,MMM,3M,"$101,552.00 ",17.4
+Industrials,CMI,Cummins,"$31,076.00 ",14.3
+Industrials,GPN,Global Payments,"$34,892.00 ",38
+Industrials,ADP,Automatic Data Processing,"$99,404.00 ",37.4
+Industrials,TXT,Textron,"$16,044.00 ",21.4
+Industrials,GWW,W.W. Grainger,"$25,532.00 ",28.3
+Industrials,FAST,Fastenal,"$35,050.00 ",39.6
+Industrials,DOV,Dover,"$24,735.00 ",26.6
+Industrials,UNP,Union Pacific,"$153,942.00 ",25.6
+Industrials,ALLE,Allegion,"$11,541.00 ",25.3
+Industrials,AME,AMETEK,"$32,387.00 ",35.1
+Industrials,EMR,Emerson Electric,"$54,052.00 ",23.8
+Industrials,UPS,United Parcel Service,"$178,249.00 ",28
+Industrials,URI,United Rentals,"$25,845.00 ",21.6
+Industrials,J,Jacobs Engineering Group,"$18,837.00 ",46.8
+Industrials,AOS,A.O. Smith,"$12,869.00 ",28
+Industrials,JCI,Johnson Controls Intl,"$55,191.00 ",37.4
+Industrials,VRSK,Verisk Analytics,"$36,930.00 ",53.4
+Industrials,PAYX,Paychex,"$44,615.00 ",36.9
+Industrials,AVY,Avery Dennison,"$17,844.00 ",24.2
+Industrials,HII,Huntington Ingalls Indus,"$7,278.00 ",10.9
+Industrials,WAB,Westinghouse Air Brake,"$17,275.00 ",38.4
+Industrials,NLSN,Nielsen Holdings,"$7,242.00 ",61
+Industrials,OTIS,Otis Worldwide,"$35,501.00 ",29.8
+Industrials,HON,Honeywell International,"$142,957.00 ",26.7
+Industrials,NOC,Northrop Grumman,"$56,073.00 ",12.5
+Industrials,EFX,Equifax,"$34,655.00 ",50.4
+Industrials,WM,Waste Management,"$69,787.00 ",40.5
+Industrials,FDX,FedEx,"$63,906.00 ",12.8
+Industrials,EXPD,Expeditors International,"$21,473.00 ",18.7
+Industrials,ODFL,Old Dominion Freight Line,"$41,083.00 ",44.1
+Industrials,XYL,Xylem,"$22,324.00 ",48.5
+Industrials,CHRW,C.H. Robinson Worldwide,"$12,429.00 ",16.9
+Industrials,HWM,Howmet Aerospace,"$12,175.00 ",43.1
+Industrials,CTAS,Cintas,"$44,953.00 ",41.1
+Industrials,IEX,IDEX,"$17,822.00 ",41.6
+Industrials,INFO,IHS Markit,"$51,900.00 ",83.8
+Industrials,DE,Deere,"$107,929.00 ",18.3
+Industrials,CARR,Carrier Global,"$48,510.00 ",22.4
+Industrials,CAT,Caterpillar,"$107,260.00 ",21
+Industrials,PH,Parker Hannifin,"$39,741.00 ",21.6
+Industrials,PCAR,PACCAR,"$29,898.00 ",17.2
+Industrials,MAS,Masco,"$16,436.00 ",37.5
+Industrials,PNR,Pentair,"$12,708.00 ",25.5
+Industrials,NSC,Norfolk Southern,"$65,644.00 ",23.1
+Industrials,IR,Ingersoll Rand,"$24,373.00 ",50.2
+Industrials,PWR,Quanta Services,"$17,338.00 ",32
+Industrials,ETN,Eaton Corp,"$66,717.00 ",32.6
+Industrials,RHI,Robert Half International,"$12,776.00 ",24.6
+Industrials,ROK,Rockwell Automation,"$39,501.00 ",29.4
+Industrials,ROP,Roper Technologies,"$50,788.00 ",45.6
+Industrials,RSG,Republic Services,"$43,831.00 ",36.4
+Industrials,RTX,Raytheon Technologies,"$124,142.00 ",35.7
+Industrials,JBHT,JB Hunt Transport Servs,"$20,599.00 ",31.1
+Industrials,LMT,Lockheed Martin,"$94,106.00 ",15.7
+Industrials,SNA,Snap-on,"$11,433.00 ",14.5
+Industrials,CSX,CSX,"$79,004.00 ",22.5
+Industrials,ITW,Illinois Tool Works,"$74,737.00 ",27.7
+Industrials,CPRT,Copart,"$35,105.00 ",35.7
+Industrials,GD,General Dynamics,"$54,291.00 ",16.7
+Industrials,GE,General Electric,"$108,055.00 ",74.5
+Industrials,SWK,Stanley Black & Decker,"$30,022.00 ",16.6
+Industrials,TDG,TransDigm Gr,"$32,276.00 ",56.3
+Healthcare,ZBH,Zimmer Biomet Holdings,"$25,791.00 ",31.4
+Healthcare,ABBV,AbbVie,"$206,646.00 ",28.3
+Healthcare,ABC,AmerisourceBergen,"$25,027.00 ",16.3
+Healthcare,ABMD,Abiomed,"$14,518.00 ",97.9
+Healthcare,ABT,Abbott Laboratories,"$226,973.00 ",31.8
+Healthcare,JNJ,Johnson & Johnson,"$420,556.00 ",23.9
+Healthcare,HSIC,Henry Schein,"$10,229.00 ",16.8
+Healthcare,HUM,Humana,"$55,008.00 ",20.7
+Healthcare,INCY,Incyte,"$15,543.00 ",29.1
+Healthcare,CRL,Charles River,"$18,909.00 ",48.5
+Healthcare,PFE,Pfizer,"$294,113.00 ",15.2
+Healthcare,ALGN,Align Tech,"$50,029.00 ",68.5
+Healthcare,ZTS,Zoetis,"$105,766.00 ",53.9
+Healthcare,AMGN,Amgen,"$114,959.00 ",21
+Healthcare,MTD,Mettler-Toledo Intl,"$35,511.00 ",48.2
+Healthcare,ANTM,Anthem,"$101,021.00 ",18.7
+Healthcare,CVS,CVS Health,"$121,426.00 ",16.1
+Healthcare,STE,Steris,"$22,673.00 ",79.8
+Healthcare,IQV,IQVIA Holdings,"$50,947.00 ",67.8
+Healthcare,IDXX,IDEXX Laboratories,"$53,529.00 ",72.2
+Healthcare,BAX,Baxter Intl,"$38,066.00 ",31.9
+Healthcare,BDX,"Becton, Dickinson","$69,961.00 ",35.6
+Healthcare,COO,Cooper Companies,"$18,793.00 ",6.5
+Healthcare,OGN,Organon,"$7,763.00 ",5.4
+Healthcare,BIIB,Biogen,"$34,682.00 ",22.6
+Healthcare,BIO,Bio-Rad Laboratories,"$22,114.00 ",3.4
+Healthcare,A,Agilent Technologies,"$46,443.00 ",39
+Healthcare,CNC,Centene,"$43,044.00 ",60.1
+Healthcare,TFX,Teleflex,"$14,472.00 ",33.8
+Healthcare,BSX,Boston Scientific,"$54,989.00 ",50
+Healthcare,TMO,Thermo Fisher Scientific,"$255,238.00 ",30.1
+Healthcare,CAH,Cardinal Health,"$13,376.00 ",12.2
+Healthcare,DGX,Quest Diagnostics,"$19,222.00 ",9.4
+Healthcare,CTLT,Catalent,"$22,931.00 ",42
+Healthcare,CERN,Cerner,"$21,436.00 ",42.9
+Healthcare,DHR,Danaher,"$233,323.00 ",42
+Healthcare,UHS,Universal Health Services,"$9,746.00 ",9.8
+Healthcare,MDT,Medtronic,"$148,310.00 ",31.8
+Healthcare,UNH,UnitedHealth Group,"$425,715.00 ",28.1
+Healthcare,REGN,Regeneron Pharmaceuticals,"$69,990.00 ",10.5
+Healthcare,ISRG,Intuitive Surgical,"$119,581.00 ",72.1
+Healthcare,SYK,Stryker,"$91,874.00 ",49
+Healthcare,VRTX,Vertex Pharmaceuticals,"$48,335.00 ",22.8
+Healthcare,EW,Edwards Lifesciences,"$69,119.00 ",47.5
+Healthcare,DVA,DaVita,"$9,874.00 ",11.1
+Healthcare,GILD,Gilead Sciences,"$88,621.00 ",12
+Healthcare,LLY,Eli Lilly,"$243,767.00 ",38.8
+Healthcare,RMD,ResMed,"$37,439.00 ",75.2
+Healthcare,LH,Laboratory Corp,"$27,936.00 ",10.4
+Healthcare,WAT,Waters,"$20,826.00 ",30.6
+Healthcare,WBA,Walgreens Boots Alliance,"$39,886.00 ",20
+Healthcare,PKI,PerkinElmer,"$23,373.00 ",18.5
+Healthcare,ILMN,Illumina,"$57,957.00 ",60.8
+Healthcare,WST,West Pharmaceutical Servs,"$33,141.00 ",55.4
+Healthcare,HCA,HCA Healthcare,"$71,510.00 ",11.8
+Healthcare,MRK,Merck & Co,"$189,167.00 ",22.5
+Healthcare,CI,Cigna,"$66,155.00 ",8.5
+Healthcare,XRAY,Dentsply Sirona,"$10,643.00 ",25.6
+Healthcare,HOLX,Hologic,"$19,099.00 ",10.5
+Healthcare,MRNA,Moderna,"$149,411.00 ",22.6
+Financial Services,PGR,Progressive,"$55,505.00 ",13.8
+Financial Services,PFG,Principal Financial Gr,"$18,798.00 ",11.4
+Financial Services,AFL,Aflac,"$36,847.00 ",9
+Financial Services,AIG,American Intl Gr,"$45,624.00 ",8.6
+Financial Services,AIZ,Assurant,"$8,890.00 ",18
+Financial Services,AJG,Arthur J. Gallagher,"$34,161.00 ",35.8
+Financial Services,ALL,Allstate,"$33,453.00 ",5.5
+Financial Services,AMP,Ameriprise Financial,"$32,862.00 ",15.9
+Financial Services,PBCT,People’s United Finl,"$7,588.00 ",25.3
+Financial Services,AXP,American Express,"$122,270.00 ",16.5
+Financial Services,BAC,Bank of America,"$373,111.00 ",13.7
+Financial Services,BEN,Franklin Resources,"$16,935.00 ",9.5
+Financial Services,BLK,BlackRock,"$140,978.00 ",24.7
+Financial Services,BRK.B,Berkshire Hathaway,"$639,215.00 ",7.6
+Financial Services,BRO,Brown & Brown,"$18,503.00 ",31.9
+Financial Services,C,Citigroup,"$129,058.00 ",6.2
+Financial Services,CB,Chubb,"$79,704.00 ",9.4
+Financial Services,NTRS,Northern Trust,"$24,906.00 ",18.9
+Financial Services,CFG,Citizens Financial Group,"$20,783.00 ",9.8
+Financial Services,MCO,Moody’s,"$73,852.00 ",35.5
+Financial Services,MET,MetLife,"$50,376.00 ",9.9
+Financial Services,FITB,Fifth Third Bancorp,"$29,394.00 ",11.9
+Financial Services,LNC,Lincoln National,"$12,349.00 ",9.8
+Financial Services,FRC,First Republic Bank,"$38,447.00 ",29.5
+Financial Services,MKTX,MarketAxess Holdings,"$13,443.00 ",48.2
+Financial Services,GL,Globe Life,"$8,998.00 ",12
+Financial Services,MMC,Marsh & McLennan,"$84,332.00 ",31.6
+Financial Services,L,Loews,"$13,980.00 ",9.1
+Financial Services,BK,Bank of New York Mellon,"$47,079.00 ",14.5
+Financial Services,GS,Goldman Sachs Group,"$128,940.00 ",6.4
+Financial Services,IVZ,Invesco,"$10,717.00 ",9.2
+Financial Services,HBAN,Huntington Bancshares,"$22,224.00 ",17.1
+Financial Services,HIG,Hartford Finl Servs Gr,"$23,351.00 ",11.4
+Financial Services,KEY,KeyCorp,"$21,255.00 ",9
+Financial Services,MS,Morgan Stanley,"$174,469.00 ",12.4
+Financial Services,MTB,M&T Bank,"$19,579.00 ",11
+Financial Services,STT,State Street,"$34,072.00 ",13.7
+Financial Services,COF,Capital One Financial,"$62,574.00 ",5.5
+Financial Services,RF,Regions Financial,"$22,439.00 ",8.8
+Financial Services,ICE,Intercontinental Exchange,"$74,312.00 ",24.3
+Financial Services,USB,U.S. Bancorp,"$85,111.00 ",11.5
+Financial Services,V,Visa,"$413,886.00 ",34.9
+Financial Services,NDAQ,Nasdaq,"$34,958.00 ",30.5
+Financial Services,RJF,Raymond James Financial,"$20,733.00 ",15.2
+Financial Services,CMA,Comerica,"$11,188.00 ",10.6
+Financial Services,TFC,Truist Financial,"$81,508.00 ",14.4
+Financial Services,PRU,Prudential Financial,"$39,700.00 ",5.7
+Financial Services,SPGI,S&P Global,"$112,047.00 ",40.1
+Financial Services,SYF,Synchrony Finl,"$25,786.00 ",6.7
+Financial Services,TROW,T. Rowe Price Gr,"$46,527.00 ",15.6
+Financial Services,TRV,Travelers Companies,"$37,491.00 ",10.7
+Financial Services,AON,Aon,"$65,369.00 ",74.2
+Financial Services,PYPL,PayPal Holdings,"$219,993.00 ",44.9
+Financial Services,JPM,JPMorgan Chase,"$476,477.00 ",10.2
+Financial Services,WFC,Wells Fargo,"$196,768.00 ",11.7
+Financial Services,WLTW,Willis Towers Watson,"$28,707.00 ",13
+Financial Services,PNC,PNC Financial Services Gr,"$84,971.00 ",15.4
+Financial Services,WRB,WR Berkley,"$14,037.00 ",14.3
+Financial Services,MSCI,MSCI,"$53,217.00 ",78.2
+Financial Services,WU,The Western Union,"$6,495.00 ",8.2
+Financial Services,MA,Mastercard,"$317,375.00 ",39.7
+Financial Services,CINF,Cincinnati Financial,"$19,088.00 ",7.6
+Financial Services,CME,CME Group,"$80,924.00 ",33.3
+Financial Services,RE,Everest Re Group,"$10,407.00 ",10.5
+Financial Services,SCHW,Charles Schwab,"$151,436.00 ",30.3
+Financial Services,DFS,Discover Financial,"$33,210.00 ",6.8
+Financial Services,SIVB,SVB Finl Gr,"$42,518.00 ",22.3
+Financial Services,ZION,Zions Bancorp,"$10,155.00 ",9.2
+Energy,DVN,Devon Energy,"$29,732.00 ",25.1
+Energy,EOG,EOG Resources,"$51,607.00 ",17.1
+Energy,FANG,Diamondback Energy,"$19,915.00 ",55
+Energy,HAL,Halliburton,"$19,916.00 ",49.4
+Energy,KMI,Kinder Morgan,"$36,301.00 ",20.8
+Energy,WMB,Williams Companies,"$34,032.00 ",34.2
+Energy,PXD,Pioneer Natural Resources,"$44,764.00 ",31.9
+Energy,SLB,Schlumberger,"$41,587.00 ",25.3
+Energy,MPC,Marathon Petroleum,"$38,030.00 ",84.6
+Energy,OKE,ONEOK,"$27,852.00 ",19.5
+Energy,APA,APA,"$9,746.00 ",17.2
+Energy,BKR,Baker Hughes,"$20,617.00 ",36.7
+Energy,COP,ConocoPhillips,"$95,161.00 ",21.4
+Energy,CTRA,Coterra Energy,"$16,954.00 ",23.7
+Energy,CVX,Chevron,"$222,109.00 ",22.2
+Consumer Defensive,CAG,Conagra Brands,"$15,114.00 ",12.7
+Consumer Defensive,STZ,Constellation Brands,"$42,705.00 ",60.4
+Consumer Defensive,CHD,Church & Dwight Co,"$23,436.00 ",28.6
+Consumer Defensive,HSY,Hershey,"$36,907.00 ",26
+Consumer Defensive,DLTR,Dollar Tree,"$31,796.00 ",23.9
+Consumer Defensive,GIS,General Mills,"$38,473.00 ",16.8
+Consumer Defensive,CL,Colgate-Palmolive,"$65,496.00 ",24.8
+Consumer Defensive,PEP,PepsiCo,"$226,947.00 ",28
+Consumer Defensive,BF.B,Brown-Forman,"$34,812.00 ",46.2
+Consumer Defensive,ADM,Archer-Daniels Midland,"$36,257.00 ",14
+Consumer Defensive,PG,Procter & Gamble,"$360,619.00 ",27.2
+Consumer Defensive,MDLZ,Mondelez International,"$84,591.00 ",19.3
+Consumer Defensive,HRL,Hormel Foods,"$23,052.00 ",26.9
+Consumer Defensive,CLX,Clorox,"$20,782.00 ",48.3
+Consumer Defensive,COST,Costco Wholesale,"$245,158.00 ",49.3
+Consumer Defensive,K,Kellogg,"$21,771.00 ",17.4
+Consumer Defensive,MKC,McCormick & Co,"$23,272.00 ",30.8
+Consumer Defensive,PM,Philip Morris Intl,"$135,988.00 ",15.2
+Consumer Defensive,MNST,Monster Beverage,"$45,955.00 ",30.3
+Consumer Defensive,KHC,Kraft Heinz,"$42,571.00 ",18.6
+Consumer Defensive,SYY,Sysco,"$37,497.00 ",55
+Consumer Defensive,CPB,Campbell Soup,"$12,446.00 ",12.5
+Consumer Defensive,KMB,Kimberly-Clark,"$45,469.00 ",23
+Consumer Defensive,WMT,Walmart,"$397,723.00 ",50
+Consumer Defensive,DG,Dollar General,"$52,510.00 ",21.5
+Consumer Defensive,KO,Coca-Cola,"$235,753.00 ",26.9
+Consumer Defensive,KR,Kroger,"$31,492.00 ",28.1
+Consumer Defensive,MO,Altria Group,"$79,871.00 ",29.2
+Consumer Defensive,EL,Estee Lauder Cos,"$122,399.00 ",41.3
+Consumer Defensive,TGT,Target,"$119,377.00 ",18.3
+Consumer Defensive,NWL,Newell Brands,"$9,507.00 ",16
+Consumer Defensive,TSN,Tyson Foods,"$29,867.00 ",9.8
+Consumer Defensive,LW,Lamb Weston Hldgs,"$7,815.00 ",30.4
+Consumer Defensive,SJM,JM Smucker,"$14,018.00 ",18.5
+Consumer Cyclical,AZO,AutoZone,"$38,552.00 ",19.3
+Consumer Cyclical,BBWI,Bath & Body Works,"$20,057.00 ",15.8
+Consumer Cyclical,APTV,Aptiv,"$44,766.00 ",56.6
+Consumer Cyclical,AMZN,Amazon.com,"$1,806,241.00 ",69.6
+Consumer Cyclical,AMCR,Amcor,"$17,753.00 ",19.1
+Consumer Cyclical,PENN,Penn National Gaming,"$8,865.00 ",20.1
+Consumer Cyclical,AAP,Advance Auto Parts,"$14,170.00 ",23
+Consumer Cyclical,PHM,PulteGroup,"$13,040.00 ",8
+Consumer Cyclical,PKG,Packaging Corp of America,"$12,699.00 ",17
+Consumer Cyclical,HD,Home Depot,"$424,817.00 ",27.2
+Consumer Cyclical,HBI,Hanesbrands,"$5,729.00 ",48.3
+Consumer Cyclical,POOL,Pool,"$22,452.00 ",37.9
+Consumer Cyclical,HAS,Hasbro,"$13,674.00 ",30.3
+Consumer Cyclical,KMX,CarMax,"$23,746.00 ",20.8
+Consumer Cyclical,PVH,PVH,"$7,804.00 ",27.1
+Consumer Cyclical,GPS,Gap,"$6,693.00 ",13.3
+Consumer Cyclical,GPC,Genuine Parts,"$18,928.00 ",23.6
+Consumer Cyclical,LEG,Leggett & Platt,"$5,488.00 ",14.1
+Consumer Cyclical,LEN,Lennar,"$32,469.00 ",8.1
+Consumer Cyclical,GM,General Motors,"$86,907.00 ",8
+Consumer Cyclical,LKQ,LKQ,"$16,789.00 ",16.7
+Consumer Cyclical,RL,Ralph Lauren,"$8,769.00 ",22.2
+Consumer Cyclical,ROL,Rollins,"$17,384.00 ",49.8
+Consumer Cyclical,LOW,Lowe’s Companies,"$167,479.00 ",21.5
+Consumer Cyclical,ROST,Ross Stores,"$39,679.00 ",24.9
+Consumer Cyclical,FBHS,Fortune Brands Home,"$13,975.00 ",19
+Consumer Cyclical,SBUX,Starbucks,"$129,908.00 ",31.3
+Consumer Cyclical,SEE,Sealed Air,"$9,511.00 ",21.5
+Consumer Cyclical,MHK,Mohawk Industries,"$11,810.00 ",11.2
+Consumer Cyclical,F,Ford Motor,"$78,605.00 ",28.1
+Consumer Cyclical,ETSY,Etsy,"$35,685.00 ",82.6
+Consumer Cyclical,MCD,McDonald’s,"$187,034.00 ",25.8
+Consumer Cyclical,EBAY,eBay,"$44,164.00 ",24.7
+Consumer Cyclical,MGM,MGM Resorts Intl,"$19,287.00 ",32.9
+Consumer Cyclical,NVR,NVR,"$18,394.00 ",17.1
+Consumer Cyclical,DRI,Darden Restaurants,"$18,396.00 ",22.6
+Consumer Cyclical,DPZ,Domino’s Pizza,"$19,413.00 ",40.6
+Consumer Cyclical,TJX,TJX Companies,"$84,983.00 ",32.2
+Consumer Cyclical,TPR,Tapestry,"$11,483.00 ",14.3
+Consumer Cyclical,IP,International Paper,"$18,285.00 ",10.4
+Consumer Cyclical,TSCO,Tractor Supply,"$25,920.00 ",28.9
+Consumer Cyclical,UA,Under Armour,"$9,969.00 ",22.1
+Consumer Cyclical,UAA,Under Armour,"$11,612.00 ",25.7
+Consumer Cyclical,DHI,D.R. Horton,"$35,210.00 ",8.7
+Consumer Cyclical,ULTA,Ulta Beauty,"$21,819.00 ",30.8
+Consumer Cyclical,VFC,VF,"$28,959.00 ",28.7
+Consumer Cyclical,CMG,Chipotle Mexican Grill,"$47,213.00 ",67.2
+Consumer Cyclical,NKE,Nike,"$268,873.00 ",45.1
+Consumer Cyclical,WHR,Whirlpool,"$13,531.00 ",7.1
+Consumer Cyclical,WRK,WestRock,"$12,221.00 ",14.7
+Consumer Cyclical,BWA,BorgWarner,"$10,743.00 ",13.4
+Consumer Cyclical,BLL,Ball,"$30,707.00 ",39
+Consumer Cyclical,BBY,Best Buy Co,"$27,289.00 ",10.7
+Consumer Cyclical,YUM,Yum Brands,"$36,822.00 ",24.2
+Consumer Cyclical,ORLY,O’Reilly Automotive,"$43,401.00 ",22.3
+Communication Services,ATVI,Activision Blizzard,"$46,974.00 ",17.9
+Communication Services,FB,Meta Platforms,"$940,317.00 ",24.2
+Communication Services,EA,Electronic Arts,"$35,316.00 ",45.9
+Communication Services,MTCH,Match Group,"$37,956.00 ",71.7
+Communication Services,CHTR,Charter Communications,"$119,799.00 ",30.7
+Communication Services,OMC,Omnicom Group,"$14,340.00 ",10.5
+Communication Services,CMCSA,Comcast,"$235,435.00 ",16.6
+Communication Services,VIAC,ViacomCBS,"$20,898.00 ",6.6
+Communication Services,GOOGL,Alphabet,"$1,933,360.00 ",28
+Communication Services,VZ,Verizon Communications,"$216,855.00 ",9.7
+Communication Services,FOXA,Fox,"$21,028.00 ",12.3
+Communication Services,NFLX,Netflix,"$294,048.00 ",59.7
+Communication Services,GOOG,Alphabet,"$1,938,172.00 ",28.2
+Communication Services,DISH,DISH Network,"$17,488.00 ",7.9
+Communication Services,IPG,Interpublic Gr of Cos,"$13,394.00 ",19.2
+Communication Services,NWS,News,"$12,959.00 ",26.4
+Communication Services,TTWO,Take-Two Interactive,"$19,761.00 ",35
+Communication Services,NWSA,News,"$12,924.00 ",26.3
+Communication Services,DISCK,Discovery,"$12,166.00 ",12.9
+Communication Services,FOX,Fox,"$19,644.00 ",11.5
+Communication Services,DISCA,Discovery,"$12,439.00 ",13.2
+Communication Services,TMUS,T-Mobile US,"$141,642.00 ",42.7
+Basic Materials,LYB,LyondellBasell Industries,"$29,674.00 ",5.2
+Basic Materials,MOS,Mosaic,"$13,344.00 ",7.7
+Basic Materials,CE,Celanese,"$17,396.00 ",6.5
+Basic Materials,DOW,Dow,"$42,054.00 ",7.5
+Basic Materials,FCX,Freeport-McMoRan,"$55,771.00 ",14.3
+Basic Materials,VMC,Vulcan Materials,"$26,449.00 ",40.9
+Basic Materials,NEM,Newmont,"$44,177.00 ",22.5
+Basic Materials,ECL,Ecolab,"$65,093.00 ",58
+Basic Materials,LIN,Linde,"$164,396.00 ",47.2
+Basic Materials,CF,CF Industries Holdings,"$13,503.00 ",45.6
+Basic Materials,CTVA,Corteva,"$34,204.00 ",19.7
+Basic Materials,FMC,FMC,"$13,324.00 ",21.7
+Basic Materials,MLM,Martin Marietta Materials,"$26,096.00 ",35.9
+Basic Materials,EMN,Eastman Chemical,"$14,811.00 ",29.6
+Basic Materials,SHW,Sherwin-Williams,"$87,646.00 ",45.8
+Basic Materials,NUE,Nucor,"$32,029.00 ",6.7
+Basic Materials,APD,Air Products & Chemicals,"$64,521.00 ",31.9
+Basic Materials,PPG,PPG Industries,"$37,356.00 ",26.5
