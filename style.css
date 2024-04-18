@@ -163,10 +163,61 @@ h1.storyHeadline  {
   font-family: 'PT Serif', serif;
   font-weight: 600;
   font-size: 2.1rem;
+  margin-bottom: 0.5rem;
 }
 
 h2  {
   font-family: 'PT Serif', serif;
   font-weight: 600;
   font-size: 1.5rem;
+}
+
+.storyImg {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.pullQuote  {
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 500;
+  font-family: 'Pt Serif', serif;
+  border-left: 4px solid #222222;
+  padding-left: 1rem;
+}
+
+.desktopImg {
+  width: 100%;
+  display: none;
+}
+
+.mobileImg  {
+  width: 100%;
+  display: block;
+  margin-bottom: 2.5rem;
+}
+
+.coverImg {
+  height: 375;
+}
+
+@media (min-width: 768px) {
+  .storyImg {
+    width: 50%;
+  }
+
+  .pullQuote  {
+    width: 80%;
+  }
+
+  .desktopImg {
+    display: block;
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+
+  .mobileImg  {
+    display: none;
+  }
 }
