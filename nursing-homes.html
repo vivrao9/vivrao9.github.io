@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Made with <3 by a nerd who loves data! Feel free to fork this repo or, if you have any questions about how something on here works, reach out to me! -->
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!-- Local CSS -->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- Favicon -->
+<link rel="icon" href="img/male-technologist.png" type="image/gif" sizes="16x16">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome, for the icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Something to do with responsiveness -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Supporting a health agency monitor nursing facilities through data viz</title>
+
+<!-- Meta tags for social -->
+    <meta property="og:url" content="tk"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Supporting a health agency monitor nursing facilities through data viz"/>
+    <meta property="og:description" content="Learn more about how I designed dashboards, built an ETL pipeline, and learned the basics of UX design for a health agency."/>
+    <meta property="og:site_name" content="Vivek Rao's portfolio">
+    <meta property="og:image" content="https://vivrao9.github.io/img/Rao_Vivek.jpg"/>
+
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@v1vra0">
+    <meta name="twitter:creator" content="@v1vra0">
+    <meta name="twitter:title" content="Supporting a health agency monitor nursing facilities through data viz">
+    <meta name="twitter:description" content="Learn more about how I designed dashboards, built an ETL pipeline, and learned the basics of UX design for a health agency."/>
+    <meta name="twitter:image" content="tk" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand navbar-hed" href="index.html">Vivek Rao</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-item nav-link navbar-text" href="index.html#portfolio" style="margin-left:70vw;">Work</a>
+      <a class="nav-item nav-link navbar-text" href="resume.html">Resume</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <img src='tk' alt='A banner image containing design elements from the project.'>
+</div>
+
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-md-6 justify-content-center">
+      <h1 class="storyHeadline">Supporting a health agency monitor nursing facilities through data viz</h1>
+      <h6>Updated April 2024</h6>
+      <p class="copy">Our client was a state health agency that came to us with two asks:</p>
+      <ol>
+        <li>Create a public-facing tool so its residents could easily search and compare nursing homes for their loved ones</li>
+        <li>Create an internal tool that a mission control team would use to regularly monitor nursing homes for quality and make interventions, if needed</li>
+      </ol>
+      <p class="copy">The client had most data available, but could not access it in a meaningful way.</p>
+      <p class="copy">I worked on a team with one other designer “Maisy” and one Tableau developer “Daisy.” Maisy and Daisy worked on the public tool, while Daisy and I worked on the internal tool.</p>
+
+      <h2>A. Conducting user research</h2>
+      <p class="copy">To begin, we scanned through the state legislature to scope out the project. A bill that had been passed outlined requirements of the external dashboard.</p>
+      <p class="copy">Early on, we stressed the importance of speaking with the users to identify their pain points. Something we learned to ask was <i>“What is something you want to do in one year that we can help you do today?”</i> — something I learn to ask on every project to this day.</p>
+      <p class="copy">We interviewed different user groups and learned to expand our interview group to include personas we hadn’t initially considered, such as advocates and public health officials. We documented all our interviews and consolidated them in a Miro board.</p>
+      <p class="copy">Next, we mocked up the information architecture.</p>
+
+      <h2>B. Identify information architecture</h2>
+      <p class="copy">Was the internal tool going to be structured like DoorDash? Or like a news website? To identify the information architecture, we drew out the average user journey and indexed on the call-to-action or the <i>So what?</i> on every page.</p>
+      <p class="copy">Once we drew out the user journey, we understood that it was important for the client to get a summary of how the state was doing (Overview). Then they wanted a way to compare different facilities against each other (LTC scorecard). And lastly, they wanted to drill into a particular facility if they wanted to get more information.</p>
+      <p class="copy">Through this exercise, we realized there were two levels of data granularity — one at the state-level and at the facility-level.</p>
+
+      <h2>C. Rapid iteration</h2>
+      <p class="copy">Next, we turned to Figma to create rapid mockups based on our information architecture. The visual design of the tool changed drastically between design critiques and testing sessions.</p>
+      <p class="copy">Since this was one of my earlier projects, I learned the importance of font hierarchy and using color sparingly. At one point, I turned to mocking designs in black-and-white to focus on the message, not the UI.</p>
+
+      <h2>D. User testing</h2>
+      <p class="copy">Throughout the above processes, we conducted several rounds of user testing and stored user feedback in a Miro board. There are two takeaways from this project that I have applied to all projects since.</p>
+      <p class="copy">First, there is one group of users that is typically overlooked in product design:</p>
+      <!-- <img src="https://media1.tenor.com/m/bdHtTkZFGTIAAAAC/developers.gif" alt="A GIF of Steve Ballmer saying 'Developers, developers, developers'"> -->
+      <div class="tenor-gif-embed" data-postid="4458491" data-share-method="host" data-aspect-ratio="1.335" data-width="50%" style="margin-bottom: 1rem;"><a href="https://tenor.com/view/developers-gif-4458491">Developers GIF</a>from <a href="https://tenor.com/search/developers-gifs">Developers GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+      <!-- <p class="caption">A GIF of Steve Ballmer saying </p> -->
+      <p class="copy">One of my guiding beliefs is that <b>developers are also users</b>. When user testing, I would share designs with developers to get their feedback on what was feasible and if the data could support our designs.</p>
+      <p class="copy">Second, it is crucial to <b>prototype with real data</b>. Despite starting testing sessions with “this is all fake data,” our client would try to find insights from lorem ipsum, or question how there were suddenly 123,456 facilities in the state.</p>
+      <p class="copy">We realized that prototyping with real data got us richer feedback because the clients had an easier time picturing themselves in the driver’s seat.</p>
+
+      <h2>E. Creating a robust data pipeline</h2>
+      <p class="copy">One of the requirements of the state legislature was that the public tool had to be updated at least once every quarter. After testing with internal users and combing through the data, we learned that nursing homes frequently change their names. This meant the tool had to be updated more frequently. We settled for monthly updates, given the frequency of some data points.</p>
+      <p class="copy">I worked directly with Daisy and the client’s IT team to develop a robust data pipeline to extract, transform, and load (ETL) data from source data warehouses to Amazon S3. I wrote five Python scripts that consolidated over 10 CSV files into three large tables, ready for ingestion into Athena and Tableau.</p>
+      <p class="copy">Outputs from some Python files were used in others and files were updated at different frequencies.</p>
+
+      <h2>F. Effective hand-off</h2>
+      <p class="copy">Based on a nudge from my manager, I began to set up biweekly calls with the clients to walk them through how to update the dashboards.</p>
+      <p class="copy">Just after our team wrapped up development, we asked the client to take the lead on updating the dashboards. We said we’d be there in the background if they needed support, but they were on their own. This made them self-reliant and — when the pipeline initially broke — the clients were better equipped to deal with it themselves.</p>
+      <p class="copy">Daisy and I also left about 18 pages of extensive documentation with an FAQs section.</p>
+
+      <h2>Conclusion</h2>
+      <p class="copy">On a closing note, this was one of my most fulfilling projects. I contributed to a tool that 5,000+ people used to search for a nursing home for their loved ones or for themselves. I learned how to user test, how to rapidly iterate, and how to design with empathy for the user.</p>
+      <p class="copy external-link">You can check out the public piece that Maisy and Daisy collaborated on <a href="https://www.nj.gov/health/ltc/nursing-homes/" target="_blank" style="border-bottom: 2px black solid;">here</a>.</p>
+      <p class="copy">Here are some screenshots of the internal tool that I worked on.</p>
+
+      <hr style="width: 100%">
+      <p class="copy external-link">If you liked this article, please reach out! I’m a data visualization designer with experience in UX design, data engineering, and analytics. Shoot me <a href="mailto:vivrao9@gmail.com?subject=Wanted to chat about your nursing homes project" style="border-bottom: 2px black solid;">an email</a>!</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

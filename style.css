@@ -42,7 +42,7 @@
 .section-hed{
   font-family: 'PT Serif', serif;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .portfolio-head {
@@ -157,4 +157,16 @@
 
 .skill:hover  {
   background-color: #FFD0AE;
+}
+
+h1.storyHeadline  {
+  font-family: 'PT Serif', serif;
+  font-weight: 600;
+  font-size: 2.1rem;
+}
+
+h2  {
+  font-family: 'PT Serif', serif;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
