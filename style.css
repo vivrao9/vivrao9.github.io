@@ -172,11 +172,6 @@ h2  {
   font-size: 1.5rem;
 }
 
-.storyImg {
-  display: block;
-  margin: auto;
-  width: 100%;
-}
 
 .pullQuote  {
   font-size: 1.6rem;
@@ -185,6 +180,13 @@ h2  {
   font-family: 'Pt Serif', serif;
   border-left: 4px solid #222222;
   padding-left: 1rem;
+}
+
+.storyImg {
+  display: block;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 2.5rem;
 }
 
 .desktopImg {
