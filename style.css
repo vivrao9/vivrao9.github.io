@@ -204,11 +204,11 @@ h2  {
 
 @media (min-width: 768px) {
   .storyImg {
-    width: 50%;
+    width: 100%;
   }
 
   .pullQuote  {
-    width: 80%;
+    width: 95%;
   }
 
   .desktopImg {
