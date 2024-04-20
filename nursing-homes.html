@@ -79,7 +79,8 @@
       <p class="copy">Early on, we stressed the importance of speaking with the users to identify their pain points. Something we learned to ask was <i>“What is something you want to do in one year that we can help you do today?”</i> — something I learn to ask on every project to this day.</p>
       <p class="pullQuote">“What is something you want to do in one year that we can help you do today?”</p>
       <p class="copy">We interviewed different user groups and learned to expand our interview group to include personas we hadn’t initially considered, such as advocates and public health officials. We documented all our interviews and consolidated them in a Miro board.</p>
-      <p class="copy">Based on our feedback, we roughed out the average user journey through the tool. To simplify it to the layperson, the idea had to fit on the back of a napkin.</p>
+      <p class="copy">Based on our feedback, we interpreted the problem statement as <b><i>"We want a way to see how nursing homes across the state are trending, identify outliers, and drill down into underperforming nursing homes."</i></b></p>
+      <p class="copy">Our team roughed out the average user journey through the tool. To simplify it to the layperson, the idea had to fit on the back of a napkin.</p>
       <img src="img/napkin.jpeg" alt="A picture of the back of a napkin showing the user flow diagram starting at the state-wide overview page navigating all the way to facility intervention." class="storyImg">
 
       <h2>B. Identify information architecture</h2>
@@ -91,7 +92,7 @@
   </div>
 
   <div class="row d-flex justify-content-center">
-    <div class="col-md-10">
+    <div class="col-md-12">
       <img src='img/Wireframes.png' alt="A diagram of wireframes for the internal tool." class="desktopImg">
       <img src='img/Wireframes__Mobile.png' alt="A diagram of wireframes for the internal tool." class="mobileImg">
     </div>
@@ -102,6 +103,18 @@
       <h2>C. Rapid iteration</h2>
       <p class="copy">Next, we turned to Figma to create rapid mockups based on our information architecture. The visual design of the tool changed drastically between design critiques and testing sessions.</p>
       <p class="copy">Since this was one of my earlier projects, I learned the importance of font hierarchy and using color sparingly. At one point, I turned to mocking designs in black-and-white to focus on the message, not the UI.</p>
+    </div>
+  </div>
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-12">
+      <img src='img/Prototypes.png' alt="A diagram of wireframes for the internal tool." class="desktopImg">
+      <img src='img/Prototypes__Mobile.png' alt="A diagram of wireframes for the internal tool." class="mobileImg">
+    </div>
+  </div>
+
+<div class="row d-flex justify-content-center">
+  <div class="col-md-6">
 
       <h2>D. User testing</h2>
       <p class="copy">Throughout the above processes, we conducted several rounds of user testing and stored user feedback in a Miro board. There are two takeaways from this project that I have applied to all projects since.</p>
@@ -116,6 +129,7 @@
       <h2>E. Creating a robust data pipeline</h2>
       <p class="copy">One of the requirements of the state legislature was that the public tool had to be updated at least once every quarter. After testing with internal users and combing through the data, we learned that nursing homes frequently change their names. This meant the tool had to be updated more frequently. We settled for monthly updates, given the frequency of some data points.</p>
       <p class="copy">I worked directly with Daisy and the client’s IT team to develop a robust data pipeline to extract, transform, and load (ETL) data from source data warehouses to Amazon S3. I wrote five Python scripts that consolidated over 10 CSV files into three large tables, ready for ingestion into Athena and Tableau.</p>
+      <img src='img/Data pipeline.png' alt="A diagram of 14 data files moving through five Python scripts to become three consolidated tables stored on AWS Athena, before being read into Tableau." class="storyImg">
       <p class="copy">Outputs from some Python files were used in others and files were updated at different frequencies.</p>
 
       <h2>F. Effective hand-off</h2>
@@ -124,8 +138,20 @@
       <p class="copy">Daisy and I also left about 18 pages of extensive documentation with an FAQs section.</p>
 
       <h2>Conclusion</h2>
-      <p class="copy">On a closing note, this was one of my most fulfilling projects. I contributed to a tool that 5,000+ people used to search for a nursing home for their loved ones or for themselves. I learned how to user test, how to rapidly iterate, and how to design with empathy for the user.</p>
+      <p class="copy">On a closing note, this was one of my most fulfilling projects. I contributed to a tool that 5,000+ people used to search for a nursing home for their loved ones or for themselves. I learned how to user test, rapidly iterate, and design with empathy for the user.</p>
       <p class="copy">Here are some screenshots of the internal tool that I worked on. All data is fake.</p>
+    </div>
+  </div>
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-12">
+      <img src='img/Final_Product.png' alt="A diagram of wireframes for the internal tool." class="desktopImg">
+      <img src='img/Final_Product.png' alt="A diagram of wireframes for the internal tool." class="mobileImg">
+    </div>
+  </div>
+
+<div class="row d-flex justify-content-center">
+  <div class="col-md-6">
 
       <hr style="width: 100%">
       <p class="copy external-link">If you liked this article, please reach out! I’m a data visualization designer with experience in UX design, data engineering, and analytics. Shoot me <a href="mailto:vivrao9@gmail.com?subject=Wanted to chat about your nursing homes project" style="border-bottom: 2px black solid;">an email</a>!</p>
