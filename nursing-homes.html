@@ -25,12 +25,12 @@
 <title>Supporting a health agency monitor nursing facilities through data viz</title>
 
 <!-- Meta tags for social -->
-    <meta property="og:url" content="tk"/>
+    <meta property="og:url" content="https://vivrao9.github.io/nursing-homes"/>
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Supporting a health agency monitor nursing facilities through data viz"/>
     <meta property="og:description" content="Learn more about how I designed dashboards, built an ETL pipeline, and learned the basics of UX design for a health agency."/>
     <meta property="og:site_name" content="Vivek Rao's portfolio">
-    <meta property="og:image" content="https://vivrao9.github.io/img/Rao_Vivek.jpg"/>
+    <meta property="og:image" content="https://vivrao9.github.io/img/Social preview.png"/>
 
 
     <meta name="twitter:card" content="summary">
@@ -56,11 +56,12 @@
 </nav>
 
 <div class="container-fluid">
-  <img src='img/Nursing Homes Cover.png' alt='A banner image containing design elements from the project.' width="100%" style="margin-bottom: 1.5rem;" class="coverImg">
+  <img src='img/Nursing Homes Cover.png' alt='A banner image containing design elements from the project.' width="100%" style="margin-bottom: 1.5rem;" class="desktopImg">
+  <img src='img/Nursing Homes Cover__Mobile.png' alt='A banner image containing design elements from the project.' width="100%" style="margin-bottom: 1.5rem;" class="mobileImg">
 </div>
 
-<div class="container-fluid">
-  <div class="row justify-content-center">
+<div class="container">
+  <div class="row d-flex justify-content-center">
     <div class="col-md-6 justify-content-center">
       <h1 class="storyHeadline">Supporting a health agency monitor 300+ nursing facilities through data viz</h1>
       <h6>Updated April 2024</h6>
@@ -78,9 +79,9 @@
       <p class="copy">Early on, we stressed the importance of speaking with the users to identify their pain points. Something we learned to ask was <i>“What is something you want to do in one year that we can help you do today?”</i> — something I learn to ask on every project to this day.</p>
       <p class="pullQuote">“What is something you want to do in one year that we can help you do today?”</p>
       <p class="copy">We interviewed different user groups and learned to expand our interview group to include personas we hadn’t initially considered, such as advocates and public health officials. We documented all our interviews and consolidated them in a Miro board.</p>
-      <p class="copy">Based on our feedback, we roughed out the average user journey through the tool. To simplify it to the layperson, the idea had to fit on the back of a napkin.</p>
+      <p class="copy">Based on our feedback, we interpreted the problem statement as <b><i>"We want a way to see how nursing homes across the state are trending, identify outliers, and drill down into underperforming nursing homes."</i></b></p>
+      <p class="copy">Our team roughed out the average user journey through the tool. To simplify it to the layperson, the idea had to fit on the back of a napkin.</p>
       <img src="img/napkin.jpeg" alt="A picture of the back of a napkin showing the user flow diagram starting at the state-wide overview page navigating all the way to facility intervention." class="storyImg">
-      <p class="copy">Next, we mocked up the information architecture.</p>
 
       <h2>B. Identify information architecture</h2>
       <p class="copy">Was the internal tool going to be structured like DoorDash? Or like a news website? To identify the information architecture, we drew out the average user journey and indexed on the call-to-action or the <i>So what?</i> on every page.</p>
@@ -90,24 +91,36 @@
     </div>
   </div>
 
-  <div class="row justify-content-center">
-    <div class="col-md-10">
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-12">
       <img src='img/Wireframes.png' alt="A diagram of wireframes for the internal tool." class="desktopImg">
       <img src='img/Wireframes__Mobile.png' alt="A diagram of wireframes for the internal tool." class="mobileImg">
     </div>
   </div>
 
-<div class="row justify-content-center">
+<div class="row d-flex justify-content-center">
   <div class="col-md-6">
       <h2>C. Rapid iteration</h2>
       <p class="copy">Next, we turned to Figma to create rapid mockups based on our information architecture. The visual design of the tool changed drastically between design critiques and testing sessions.</p>
       <p class="copy">Since this was one of my earlier projects, I learned the importance of font hierarchy and using color sparingly. At one point, I turned to mocking designs in black-and-white to focus on the message, not the UI.</p>
+    </div>
+  </div>
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-12">
+      <img src='img/Prototypes.png' alt="A diagram of wireframes for the internal tool." class="desktopImg">
+      <img src='img/Prototypes__Mobile.png' alt="A diagram of wireframes for the internal tool." class="mobileImg">
+    </div>
+  </div>
+
+<div class="row d-flex justify-content-center">
+  <div class="col-md-6">
 
       <h2>D. User testing</h2>
       <p class="copy">Throughout the above processes, we conducted several rounds of user testing and stored user feedback in a Miro board. There are two takeaways from this project that I have applied to all projects since.</p>
       <p class="copy">First, there is one group of users that is typically overlooked in product design:</p>
       <!-- <img src="https://media1.tenor.com/m/bdHtTkZFGTIAAAAC/developers.gif" alt="A GIF of Steve Ballmer saying 'Developers, developers, developers'"> -->
-      <div class="tenor-gif-embed storyImg" data-postid="4458491" data-share-method="host" data-aspect-ratio="1.335" data-width="50%"><a href="https://tenor.com/view/developers-gif-4458491">Developers GIF</a>from <a href="https://tenor.com/search/developers-gifs">Developers GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+      <div class="tenor-gif-embed storyImg" data-postid="4458491" data-share-method="host" data-aspect-ratio="1.335"><a href="https://tenor.com/view/developers-gif-4458491">Developers GIF</a>from <a href="https://tenor.com/search/developers-gifs">Developers GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
       <!-- <p class="caption">A GIF of Steve Ballmer saying </p> -->
       <p class="copy">One of my guiding beliefs is that <b>developers are also users</b>. When user testing, I would share designs with developers to get their feedback on what was feasible and if the data could support our designs. This meant that we would catch issues early on and we wouldn't have to redo our prototypes.</p>
       <p class="copy">Second, it is crucial to <b>prototype with real data</b>. Despite starting testing sessions with “this is all fake data,” our client would try to find insights from lorem ipsum, or question how there were suddenly 123,456 facilities in the state.</p>
@@ -116,23 +129,41 @@
       <h2>E. Creating a robust data pipeline</h2>
       <p class="copy">One of the requirements of the state legislature was that the public tool had to be updated at least once every quarter. After testing with internal users and combing through the data, we learned that nursing homes frequently change their names. This meant the tool had to be updated more frequently. We settled for monthly updates, given the frequency of some data points.</p>
       <p class="copy">I worked directly with Daisy and the client’s IT team to develop a robust data pipeline to extract, transform, and load (ETL) data from source data warehouses to Amazon S3. I wrote five Python scripts that consolidated over 10 CSV files into three large tables, ready for ingestion into Athena and Tableau.</p>
+      <img src='img/Data pipeline.png' alt="A diagram of 14 data files moving through five Python scripts to become three consolidated tables stored on AWS Athena, before being read into Tableau." class="storyImg">
       <p class="copy">Outputs from some Python files were used in others and files were updated at different frequencies.</p>
 
       <h2>F. Effective hand-off</h2>
-      <p class="copy">Based on a nudge from my manager, I set up biweekly calls with the clients to walk them through how to update the dashboards.</p>
+      <p class="copy">Once development was close to the finish line, we set up biweekly calls with the clients to walk them through how to update the dashboards.</p>
       <p class="copy">Just after our team wrapped up development, we asked the client to take the lead on updating the dashboards. We said we’d be there in the background if they needed support, but they were on their own. This made them self-reliant and — when the pipeline initially broke — the clients were better equipped to deal with it themselves.</p>
       <p class="copy">Daisy and I also left about 18 pages of extensive documentation with an FAQs section.</p>
 
       <h2>Conclusion</h2>
-      <p class="copy">On a closing note, this was one of my most fulfilling projects. I contributed to a tool that 5,000+ people used to search for a nursing home for their loved ones or for themselves. I learned how to user test, how to rapidly iterate, and how to design with empathy for the user.</p>
-      <p class="copy external-link">You can check out the public piece that Maisy and Daisy collaborated on <a href="https://www.nj.gov/health/ltc/nursing-homes/" target="_blank" style="border-bottom: 2px black solid;">here</a>.</p>
+      <p class="copy">On a closing note, this was one of my most fulfilling projects. I contributed to a tool that 5,000+ people used to search for a nursing home for their loved ones or for themselves. I learned how to user test, rapidly iterate, and design with empathy for the user.</p>
       <p class="copy">Here are some screenshots of the internal tool that I worked on. All data is fake.</p>
+    </div>
+  </div>
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-12">
+      <img src='img/Final_Product.png' alt="A diagram of wireframes for the internal tool." class="desktopImg">
+      <img src='img/Final_Product.png' alt="A diagram of wireframes for the internal tool." class="mobileImg">
+    </div>
+  </div>
+
+<div class="row d-flex justify-content-center">
+  <div class="col-md-6">
 
       <hr style="width: 100%">
       <p class="copy external-link">If you liked this article, please reach out! I’m a data visualization designer with experience in UX design, data engineering, and analytics. Shoot me <a href="mailto:vivrao9@gmail.com?subject=Wanted to chat about your nursing homes project" style="border-bottom: 2px black solid;">an email</a>!</p>
     </div>
   </div>
 </div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
 
 </body>
 </html>
