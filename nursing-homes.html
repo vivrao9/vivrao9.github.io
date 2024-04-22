@@ -69,17 +69,16 @@
       <p class="copy">Our client was a state health agency that came to us with two asks:</p>
       <ol>
         <li>Create a public-facing tool so residents could easily search and compare nursing homes</li>
-        <li>Create an internal tool that a mission control team would use to regularly monitor nursing homes for quality and make interventions, if needed</li>
+        <li>Create an internal tool that a team would use to regularly monitor nursing homes for quality and make interventions, if needed</li>
       </ol>
-      <p class="copy">The client had most data available, but could not access it in a meaningful way.</p>
+      <p class="copy">This project was interesting because I was a <b>UX designer, data analyst, and data engineer</b>. The tools we built would later be used by 5,000+ people. I learned how to user test, rapidly iterate, and design with empathy for the user.</p>
       <p class="copy">I worked on a team with one other designer “Maisy” and one Tableau developer “Daisy.” Maisy and Daisy worked on the public tool, while Daisy and I worked on the internal tool.</p>
 
       <h2>A. Conducting user research</h2>
       <p class="copy">To begin, we scanned through the state legislature to scope out the project. A bill that had been passed outlined requirements of the external dashboard.</p>
-      <p class="copy">Early on, we stressed the importance of speaking with the users to identify their pain points. Something we learned to ask was <i>“What is something you want to do in one year that we can help you do today?”</i> — something I learn to ask on every project to this day.</p>
+      <p class="copy">Early on, we stressed the importance of speaking with the users to identify their pain points. We expanded our interview group to include personas we hadn’t initially considered, such as advocates and public health officials.</p>
       <p class="pullQuote">“What is something you want to do in one year that we can help you do today?”</p>
-      <p class="copy">We interviewed different user groups and learned to expand our interview group to include personas we hadn’t initially considered, such as advocates and public health officials. We documented all our interviews and consolidated them in a Miro board.</p>
-      <p class="copy">Based on our feedback, we interpreted the problem statement as <b><i>"We want a way to see how nursing homes across the state are trending, identify outliers, and drill down into underperforming nursing homes."</i></b></p>
+      <p class="copy">We documented all our interviews and consolidated them in a Miro board. Based on our feedback, we interpreted the problem statement as <b><i>"We want a way to see how nursing homes across the state are trending, identify outliers, and drill down into underperforming nursing homes."</i></b></p>
       <p class="copy">Our team roughed out the average user journey through the tool. To simplify it to the layperson, the idea had to fit on the back of a napkin.</p>
       <img src="img/napkin.jpeg" alt="A picture of the back of a napkin showing the user flow diagram starting at the state-wide overview page navigating all the way to facility intervention." class="storyImg">
 
@@ -117,18 +116,17 @@
   <div class="col-md-6">
 
       <h2>D. User testing</h2>
-      <p class="copy">Throughout the above processes, we conducted several rounds of user testing and stored user feedback in a Miro board. There are two takeaways from this project that I have applied to all projects since.</p>
+      <p class="copy">Throughout the above processes, we conducted several rounds of user testing. There were two takeaways that I have apply to all projects now.</p>
       <p class="copy">First, there is one group of users that is typically overlooked in product design:</p>
       <!-- <img src="https://media1.tenor.com/m/bdHtTkZFGTIAAAAC/developers.gif" alt="A GIF of Steve Ballmer saying 'Developers, developers, developers'"> -->
       <div class="tenor-gif-embed storyImg" data-postid="4458491" data-share-method="host" data-aspect-ratio="1.335"><a href="https://tenor.com/view/developers-gif-4458491">Developers GIF</a>from <a href="https://tenor.com/search/developers-gifs">Developers GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
       <!-- <p class="caption">A GIF of Steve Ballmer saying </p> -->
-      <p class="copy">One of my guiding beliefs is that <b>developers are also users</b>. When user testing, I would share designs with developers to get their feedback on what was feasible and if the data could support our designs. This meant that we would catch issues early on and we wouldn't have to redo our prototypes.</p>
-      <p class="copy">Second, it is crucial to <b>prototype with real data</b>. Despite starting testing sessions with “this is all fake data,” our client would try to find insights from lorem ipsum, or question how there were suddenly 123,456 facilities in the state.</p>
-      <p class="copy">We realized that prototyping with real data got us richer feedback because the clients had an easier time picturing themselves in the driver’s seat.</p>
+      <p class="copy"><b>Developers are also users</b>. When user testing, I would share designs with developers to get their feedback on what was feasible and if the data could support our designs. This meant that we would catch issues early on and we wouldn't have to redo our prototypes.</p>
+      <p class="copy"><b>Prototype with real data</b>. Despite starting testing sessions with “this is all fake data,” our client would try to find insights from lorem ipsum, or question how there were suddenly 123,456 facilities in the state.</p>
 
       <h2>E. Creating a robust data pipeline</h2>
-      <p class="copy">One of the requirements of the state legislature was that the public tool had to be updated at least once every quarter. After testing with internal users and combing through the data, we learned that nursing homes frequently change their names. This meant the tool had to be updated more frequently. We settled for monthly updates, given the frequency of some data points.</p>
-      <p class="copy">I worked directly with Daisy and the client’s IT team to develop a robust data pipeline to extract, transform, and load (ETL) data from source data warehouses to Amazon S3. I wrote five Python scripts that consolidated over 10 CSV files into three large tables, ready for ingestion into Athena and Tableau.</p>
+      <p class="copy">State legislature required that the public tool had to be updated at least quarterly. After combing through the data, we learned that nursing homes frequently change their names. This meant the tool had to be updated more frequently. We settled for monthly updates, given the frequency of some data points.</p>
+      <p class="copy">I worked with Daisy and the client’s IT team to develop a data pipeline to extract, transform, and load (ETL) data to Amazon S3. I wrote scripts to consolidate files into three tables, ready for ingestion into Athena and Tableau.</p>
       <img src='img/Data pipeline.png' alt="A diagram of 14 data files moving through five Python scripts to become three consolidated tables stored on AWS Athena, before being read into Tableau." class="storyImg">
       <p class="copy">Outputs from some Python files were used in others and files were updated at different frequencies.</p>
 
