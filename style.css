@@ -199,9 +199,9 @@ div.col-8 > .subhead  > .skill {
 }
 
 h1.storyHeadline  {
-  font-family: 'PT Serif', serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: 600;
-  font-size: 2.1rem;
+  font-size: 2.25rem;
   margin-bottom: 0.5rem;
 }
 
@@ -211,6 +211,24 @@ h2  {
   font-size: 1.5rem;
 }
 
+.heroImg  {
+  border-radius: 4px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  margin-bottom: 2.5rem;
+}
+
+.topBox {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  color: #262626;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.25rem;
+}
 
 .pullQuote  {
   font-size: 1.6rem;
@@ -248,8 +266,12 @@ h2  {
   font-weight: 600;
   font-size: 1.05rem;
   margin-bottom: 0;
-  color: #444444;
+  color: #1a70cb;
   text-transform: uppercase;
+}
+
+.intro__copy  {
+  font-size: 1.2rem;
 }
 
 .intro__side_panel  {
@@ -265,6 +287,13 @@ h2  {
 }
 
 @media (min-width: 768px) {
+  .herow  {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+
   .storyImg {
     width: 100%;
   }
