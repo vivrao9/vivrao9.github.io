@@ -84,94 +84,110 @@
     <div class="col-md-6 justify-content-center" class="topBox">
       <div class="topBox">
         <p class="intro__title">Outcome</p>
-        <p class="intro__copy">Designed a balanced scorecard to help executives establish a common practice. In the first five months since its launch, the scorecard was used more than 13,000 times by more than 1,000 users, over half of whom were satisfied with the scorecard.</p>
+        <p class="intro__copy">Designed a balanced scorecard to help executives establish a common practice. In the first five months since its launch, the scorecard was used more than 13,000 times by more than 1,000 users, and marked a significant improvement from legacy dashboards.</p>
       </div>
     </div>
 
     </div>
   </div>
 
-<div class="container">
+<div class="container" style="margin-top: 10vh;">
     <div class="row d-flex justify-content-center">
     <div class="col-md-6 justify-content-center">
-      <h2>Conducting user research</h2>
-      <p class="copy">To begin, we scanned through the state legislature to scope out the project. A bill that had been passed outlined requirements of the external dashboard.</p>
-      <p class="copy">Early on, we stressed the importance of speaking with the users to identify their pain points. We expanded our interview group to include personas we hadn’t initially considered, such as advocates and public health officials.</p>
-      <p class="pullQuote">“What is something you want to do in one year that we can help you do today?”</p>
-      <p class="copy">We documented all our interviews and consolidated them in a Miro board. Based on our feedback, I interpreted the problem statement as <b><i>"We want a way to see how nursing homes across the state are trending, identify outliers, and drill down into underperforming nursing homes."</i></b></p>
-      <p class="copy">I roughed out the average user journey through the tool. To simplify it to the layperson, the idea had to fit on the back of a napkin.</p>
-      <img src="img/napkin.jpeg" alt="A picture of the back of a napkin showing the user flow diagram starting at the state-wide overview page navigating all the way to facility intervention." class="storyImg">
+      <h2>Background</h2>
+      <p class="copy">In 2014, the healthcare world was introduced to a new idea: the Quadruple Aim framework.</p>
+      <p class="copy">The framework suggested that health systems (i.e., hospital chains) focus on four goals:</p>
+        <ol>
+          <li>Reducing costs</li>
+          <li>Improving population health</li>
+          <li>Patient experience, and</li>
+          <li>Team well-being</li>
+        </ol>
 
-      <h2>Identify information architecture</h2>
-      <p class="copy">Was the internal tool going to be structured like DoorDash? Or like a news website? To identify the information architecture, I drew out the average user journey and indexed on the call-to-action or the <i>So what?</i> on every page.</p>
-      <p class="copy">Once I drew out the user journey, I realized that it was important for the client to get a summary of how the state was doing (Overview). Then they wanted a way to compare different facilities against each other (LTC scorecard). And lastly, they wanted to drill into a particular facility if they wanted to get more information.</p>
-      <p class="copy">Through this exercise, we realized there were two levels of data granularity — one at the state-level and at the facility-level.</p>
-      <p class="copy">From here, I created wireframes and tested the navigation structure with our clients.</p>
+      <p class="copy">In 2024, Providence Health decided to adopt this at a system-level. There was a sense of urgency because the COVID-19 pandemic had challenged the organization’s finances. To improve the health system’s...health, leaders needed a common framework for performance management.</p>
+
+      <h2>Business problem</h2>
+      <p class="copy">Executives had the following pain points:</p>
+      <img src="img/biz-problem-pyramid.svg" alt="Sn image of a pyramid with three levels. The foundation of the pyramid reads 'Strategy: There was no alignment on which metrics were most important.' The middle level reads 'Back-end: There were different definitions and calculations for each metric, leading to a lack of trust.' The top-most level reads 'Front-end: Different teams updated different reports every month which had to be manually updated, leading to a lengthy update process.'" style="margin-bottom: 2vh; width: 100%;" />
+      <p class="copy">System-level executives wanted one balanced scorecard to present these metrics and whether or not they were meeting monthly targets. This report would be used at Monthly Operating Reviews (MORs) to see what areas to focus on in the following month.</p>
+
+      <h2>User research</h2>
+      <p class="copy">A team of user researchers performed a competitive analysis for three legacy dashboards that executives used at the time. These three reports were to be sunset and consolidated into one new report called <b>System Quad Aim</b>.</p>
+      <p class="copy">I created and disseminated a baseline survey to collect feedback on the legacy dashboards. Through this, we quantified users’ perceptions on the legacy dashboards around metric refresh rates, navigability, ease-of-use, and more. After analyzing responses, we learned most users felt it was difficult to understand what metrics they were looking at.</p>
     </div>
   </div>
 
   <div class="row d-flex justify-content-center">
     <div class="col-md-12">
-      <img src='img/Wireframes.png' alt="A diagram of wireframes for the internal tool." class="desktopImg">
-      <img src='img/Wireframes__Mobile.png' alt="A diagram of wireframes for the internal tool." class="mobileImg">
+      <!-- <img src='img/Wireframes.png' alt="A diagram of wireframes for the internal tool." class="desktopImg">
+      <img src='img/Wireframes__Mobile.png' alt="A diagram of wireframes for the internal tool." class="mobileImg"> -->
     </div>
   </div>
 
 <div class="row d-flex justify-content-center">
   <div class="col-md-6">
-      <h2>Rapid iteration</h2>
-      <p class="copy">Next, we turned to Figma to create rapid mockups based on our information architecture. The visual design of the tool changed drastically between design critiques and testing sessions.</p>
-      <p class="copy">Since this was one of my earlier projects, I learned the importance of font hierarchy and using color sparingly. At one point, I turned to mocking designs in black-and-white to focus on the message, not the UI.</p>
+      <h2>Prototyping</h2>
+      <p class="copy">This project challenged my assumptions about dashboard creation. Executives at Providence were interested in seeing all 31 metrics at the same time. I had to design a screen that fit all those metrics in a way that didn’t overwhelm users and also surfaced the most important pieces of information.</p>
+      <p class="copy">We went through multiple rounds of iteration and incorporated user feedback on each update.</p>
+      <img src="img/sqa-prototyping.gif" alt="A looping animation showing the designs in different stages, from low-fidelity boxes to high-fidelity" style="width: 100%; margin-bottom: 2vh;"/>
     </div>
   </div>
 
   <div class="row d-flex justify-content-center">
     <div class="col-md-12">
-      <img src='img/Prototypes.png' alt="A diagram of wireframes for the internal tool." class="desktopImg">
-      <img src='img/Prototypes__Mobile.png' alt="A diagram of wireframes for the internal tool." class="mobileImg">
+      <!-- <img src='img/Prototypes.png' alt="A diagram of wireframes for the internal tool." class="desktopImg">
+      <img src='img/Prototypes__Mobile.png' alt="A diagram of wireframes for the internal tool." class="mobileImg"> -->
     </div>
   </div>
 
 <div class="row d-flex justify-content-center">
   <div class="col-md-6">
-      <p class="copy">Throughout this project, we stressed on <b>prioritizing what metrics to show before we prioritized <i>how</i> to show them</b>. I learned that users are less excited about what chart type you use and typically more interested in what metric you highlight, what tab it's under, and whether it's been labeled correctly.</p>
-      <p>For example, in our early wireframes, we didn't include a map of the state on the Overview page. But during the user research phase, we heard many people stress the importance of finding "clusters" of poor performance, or COVID-19 "outbreak areas." When we mocked up a map, our users were mildly interested but didn't see the value just yet. After some iterating and tweaking, we prototyped a map with the ability to toggle between counties and facilities. This excited our users and they said it would open perspectives they'd never had before.</p>
-      <h2>User testing</h2>
-      <p class="copy">Throughout the above processes, we conducted several rounds of user testing. There were two takeaways that I now apply to all projects.</p>
-      <p class="copy">First, there is one group of stakeholders that is typically overlooked in product design:</p>
-      <div class="tenor-gif-embed storyImg" data-postid="4458491" data-share-method="host" data-aspect-ratio="1.335"><a href="https://tenor.com/view/developers-gif-4458491">Developers GIF</a>from <a href="https://tenor.com/search/developers-gifs">Developers GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-      <p class="copy"><b>Developers are also stakeholders</b>. When user testing, I would share designs with developers to get their feedback on what was feasible and if the data could support our designs. This meant that we would catch issues early on and we wouldn't have to redo our prototypes.</p>
-      <p class="copy"><b>Prototype with real data</b>. Despite starting testing sessions with “this is all fake data,” our client would try to find insights from lorem ipsum, or question how there were suddenly 123,456 facilities in the state. Instead, when we prototyped with real data, the users were able to better put themselves in the driver's seat and testing became more fruitful.</p>
+    <h2>Concept testing</h2>
+      <p class="copy">After creating some rough mockups, we led a roadshow to get feedback from end users. I conducted seven one-on-one user interviews and demoed Figma mockups.</p>
+      <p>Our biggest takeaways were:</p>
+      <ul>
+        <li>Executives were interested in improving performance. They wanted their eyes to move to those metrics that were not meeting targets.</li>
+        <li>Executives wanted to quickly compare all facilities within their purview to see which ones were under-performing.</li>
+      </ul>
+      <p class="copy">We took this feedback back to the drawing board and iterated on our designs. We introduced a Comparisons page, and added more visual cues to highlight when metrics didn’t meet targets.</p>
 
-      <h2>Creating a robust data pipeline</h2>
-      <p class="copy">State legislature required that the public tool had to be updated at least quarterly. After combing through the data, we learned that nursing homes frequently change their names. This meant the tool had to be updated more frequently. We settled for monthly updates, given the frequency of some data points.</p>
-      <p class="copy">I worked with the Tableau developer and the client’s IT team to develop a data pipeline to extract, transform, and load (ETL) data to Amazon S3. I wrote scripts to consolidate files into three tables, ready for ingestion into Athena and Tableau.</p>
-      <img src='img/Data pipeline.png' alt="A diagram of 14 data files moving through five Python scripts to become three consolidated tables stored on AWS Athena, before being read into Tableau." class="storyImg">
-      <p class="copy">Outputs from some Python files were used in others and files were updated at different frequencies.</p>
+      <h2>Usability testing</h2>
+      <p class="copy">I piloted usability testing for the first time at Providence. I led 12 usability tests with end users. These were 30-minute one-one-one sessions where users thought out loud while completing pre-defined exercises.</p>
+      <p class="copy">From our tests, we learned that filtering on the Summary page was tricky. Many users didn’t know how to drill down from the system-level to the unit-level.</p>
+      <p class="copy">Besides this, most users said the scorecard was “intuitive.” I summarized the findings and presented them at a formal read-out.</p>
 
-      <h2>Effective hand-off</h2>
-      <p class="copy">Once development was close to the finish line, we set up biweekly calls with the clients to walk them through how to update the dashboards.</p>
-      <p class="copy">Just after our team wrapped up development, we asked the client to take the lead on updating the dashboards. We said we’d be there in the background if they needed support, but they were on their own. This made them self-reliant and — when the pipeline initially broke — the clients were better equipped to deal with it themselves.</p>
-      <p class="copy">The developer and I also left about 18 pages of extensive documentation with an FAQs section.</p>
+      <h2>Launch and impact</h2>
+      <p class="copy">In the months after this product launched, it created a wave throughout the organization. Board meetings and MORs across the organization required attendees to present using the scorecard.</p>
+      <p class="copy">In the five months since the scorecard launched, <b>it was viewed over 13,000 times by 1,000 people</b> across the organization. Unlike most dashboards which go through dashboard rot, this dashboard was viewed on a consistent cadence (see below).</p>
+      <p class="copy">The scorecard became a part of the organization’s vernacular: many executives approached the design team on other engagements asking us to build “Quad Aim but for [another domain]” and wanted it to “match the look-and-feel of the Quad Aim scorecard.”</p>
+      <!-- <img src='img/Data pipeline.png' alt="A diagram of 14 data files moving through five Python scripts to become three consolidated tables stored on AWS Athena, before being read into Tableau." class="storyImg"> -->
 
-      <h2>Conclusion</h2>
-      <p class="copy">On a closing note, this was one of my most fulfilling projects. I contributed to a tool that 5,000+ people used to search for a nursing home for their loved ones or for themselves. I learned how to user test, rapidly iterate, and design with empathy for the user.</p>
-      <p class="copy">Here are some screenshots of the internal tool that I worked on. All data is fake.</p>
+      <h2>Outcome</h2>
+      <p class="copy">For the first time in the analytics department, we conducted a follow-up survey to assess how effective SQA was as an executive scorecard. The survey had nearly identical questions to the baseline survey to allow for easy comparison.</p>
+      <p class="copy">We learned that, in almost all areas, the SQA was a net positive from legacy dashboards, i.e., it was an improvement. The only places it lagged behind were on “understandable at-a-glance” and “overall satisfaction.” After digging through qualitative feedback, we learned that most users were confused by the tool’s refresh schedule. Metrics updated on different cadences and that didn’t interact well with users’ MOR schedules.</p>
+      <p class="copy">This will be addressed in following iterations of the scorecard.</p>
     </div>
   </div>
 
   <div class="row d-flex justify-content-center">
+    <div class="col-md-12">
+      <img src='img/sqa-desktop-impact.png' alt="xxx" class="desktopImg">
+      <img src='img/sqa-mobile-impact.png' alt="xxx" class="mobileImg">
+    </div>
+  </div>
+
+  <!-- <div class="row d-flex justify-content-center">
     <div class="col-md-12">
       <img src='img/Final_Product.png' alt="A collage of screenshots of the internal tool." class="desktopImg">
       <img src='img/Final_Product.png' alt="A collage of screenshots of the internal tool." class="mobileImg">
     </div>
-  </div>
+  </div> -->
 
 <div class="row d-flex justify-content-center">
   <div class="col-md-6">
 
       <hr style="width: 100%">
-      <p class="copy external-link">If you liked this article, please reach out! I’m a data visualization designer with experience in UX design, data engineering, and analytics. Shoot me <a href="mailto:vivrao9@gmail.com?subject=Wanted to chat about your nursing homes project" style="border-bottom: 2px black solid;">an email</a>!</p>
+      <p class="copy external-link">I’m a data visualization designer with experience in UX design, data engineering, and analytics. If you liked this article, <a href="mailto:vivrao9@gmail.com?subject=Wanted to chat about System Quad Aim" style="border-bottom: 2px black solid;">shoot me an email</a>!</p>
     </div>
   </div>
 </div>
