@@ -2,8 +2,6 @@
 <html>
 <head>
 
-<!-- Made with <3 by a nerd who loves data! Feel free to fork this repo or, if you have any questions about how something on here works, reach out to me! -->
-
 <!-- Bootstrap -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -57,8 +55,8 @@
 
 <div class="container-fluid">
     <div class="row d-flex justify-content-center herow">
-      <div class="col-md-5">
-        <img src="img/sqa-hero.png" class="heroImg" style="width: 100%; border-radius: 4px;">
+      <div class="col-md-6">
+        <img src="img/sqa-hero-2026.png" class="heroImg" style="width: 100%; border-radius: 4px;">
       </div>
 
       <div class="col-md-5" style="display: flex; flex-flow: column; align-items: stretch; align-content: stretch;">
@@ -97,7 +95,7 @@
       <h2>Background</h2>
       <p class="copy">In 2014, the healthcare world was introduced to a new idea: the Quadruple Aim framework.</p>
       <p class="copy">The framework suggested that health systems (i.e., hospital chains) focus on four goals:</p>
-        <ol>
+        <ol class="copy">
           <li>Reducing costs</li>
           <li>Improving population health</li>
           <li>Patient experience, and</li>
@@ -114,13 +112,14 @@
       <h2>User research</h2>
       <p class="copy">A team of user researchers performed a competitive analysis for three legacy dashboards that executives used at the time. These three reports were to be sunset and consolidated into one new report called <b>System Quad Aim</b>.</p>
       <p class="copy">I created and disseminated a baseline survey to collect feedback on the legacy dashboards. Through this, we quantified users’ perceptions on the legacy dashboards around metric refresh rates, navigability, ease-of-use, and more. After analyzing responses, we learned most users felt it was difficult to understand what metrics they were looking at.</p>
+      <p class="copy">We also conducted rapid testing to determine what elements were most important for each metric. Based on user feedback, we organized the information in each KPI card in the following way:</p>
     </div>
   </div>
 
   <div class="row d-flex justify-content-center">
     <div class="col-md-12">
-      <!-- <img src='img/Wireframes.png' alt="A diagram of wireframes for the internal tool." class="desktopImg">
-      <img src='img/Wireframes__Mobile.png' alt="A diagram of wireframes for the internal tool." class="mobileImg"> -->
+      <img src='img/kpi-card-anatomy-desktop.png' alt="A mechanical diagram showing the components of each KPI card: metric name, presentation period, a hyperlink to access a drill-down dashboard, desired performance indicator (e.g., higher is better), metric value for the reporting month, a target for the month, and a trend line for the reporting period." class="desktopImg">
+      <img src='img/kpi-card-anatomy-mobile.png' alt="A mechanical diagram showing the components of each KPI card: metric name, presentation period, a hyperlink to access a drill-down dashboard, desired performance indicator (e.g., higher is better), metric value for the reporting month, a target for the month, and a trend line for the reporting period." class="mobileImg">
     </div>
   </div>
 
@@ -130,13 +129,14 @@
       <p class="copy">This project challenged my assumptions about dashboard creation. Executives at Providence were interested in seeing all 31 metrics at the same time. I had to design a screen that fit all those metrics in a way that didn’t overwhelm users and also surfaced the most important pieces of information.</p>
       <p class="copy">We went through multiple rounds of iteration and incorporated user feedback on each update.</p>
       <img src="img/sqa-prototyping.gif" alt="A looping animation showing the designs in different stages, from low-fidelity boxes to high-fidelity" style="width: 100%; margin-bottom: 2vh;"/>
+      <p class="copy">The users for this scorecard were also very interested in seeing all aspects of a metric. They wanted data on numerators, denominators, year-to-date values, 12-month rolling averages, and more. To accommodate a variety of reporting needs, we spent a lot of effort designing error screens and tooltips. You can see an example of a tooltip below.</p>
     </div>
   </div>
 
   <div class="row d-flex justify-content-center">
-    <div class="col-md-12">
-      <!-- <img src='img/Prototypes.png' alt="A diagram of wireframes for the internal tool." class="desktopImg">
-      <img src='img/Prototypes__Mobile.png' alt="A diagram of wireframes for the internal tool." class="mobileImg"> -->
+    <div class="col-md-8">
+      <img src="img/tooltip.png" alt="A screenshot of a metric tooltip. The following measures are in the tooltip: numerator, denominator, monthly value, year-to-date value, 12-month moving average, target goal, and the outstanding goal." class="desktopImg">
+      <img src="img/tooltip.png" alt="A screenshot of a metric tooltip. The following measures are in the tooltip: numerator, denominator, monthly value, year-to-date value, 12-month moving average, target goal, and the outstanding goal." class="mobileImg">
     </div>
   </div>
 
@@ -145,17 +145,33 @@
     <h2>Concept testing</h2>
       <p class="copy">After creating some rough mockups, we led a roadshow to get feedback from end users. I conducted seven one-on-one user interviews and demoed Figma mockups.</p>
       <p>Our biggest takeaways were:</p>
-      <ul>
+      <ul class="copy">
         <li>Executives were interested in improving performance. They wanted their eyes to move to those metrics that were not meeting targets.</li>
         <li>Executives wanted to quickly compare all facilities within their purview to see which ones were under-performing.</li>
       </ul>
-      <p class="copy">We took this feedback back to the drawing board and iterated on our designs. We introduced a Comparisons page, and added more visual cues to highlight when metrics didn’t meet targets.</p>
+      <p class="copy">We took this feedback back to the drawing board and iterated on our designs. We introduced a Comparisons page and added more visual cues to highlight when metrics didn’t meet targets.</p>
+      <div class="speech-bubble">
+        <p class="quote">"It seems like it's quite intuitive. And so usability is one of the top things with any dashboard and any tool that's coming out. So kudos to you—I think it looks really fantastic."</p>
+        <p class="caption" style="margin: 0;">Clinical Program Director</p>
+      </div>
 
       <h2>Usability testing</h2>
       <p class="copy">I piloted usability testing for the first time at Providence. I led 12 usability tests with end users. These were 30-minute one-one-one sessions where users thought out loud while completing pre-defined exercises.</p>
       <p class="copy">From our tests, we learned that filtering on the Summary page was tricky. Many users didn’t know how to drill down from the system-level to the unit-level.</p>
       <p class="copy">Besides this, most users said the scorecard was “intuitive.” I summarized the findings and presented them at a formal read-out.</p>
+    </div>
+  </div>
 
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-8">
+      <img src='img/usability-desktop.png' alt="Screenshots of slides from the usability testing read-out. One slide has a beeswarm chart showing the distribution of completion times of various exercises users completed during usability testing." class="desktopImg">
+      <img src='img/usability-mobile.png' alt="Screenshots of slides from the usability testing read-out. One slide has a beeswarm chart showing the distribution of completion times of various exercises users completed during usability testing" class="mobileImg">
+      <p class="caption">Two slides from the usability testing read-out deck. One slide shows the distribution of time taken to complete various exercises during testing.</p>
+    </div>
+  </div>
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-6">
       <h2>Launch and impact</h2>
       <p class="copy">In the months after this product launched, it created a wave throughout the organization. Board meetings and MORs across the organization required attendees to present using the scorecard.</p>
       <p class="copy">In the five months since the scorecard launched, <b>it was viewed over 13,000 times by 1,000 people</b> across the organization. Unlike most dashboards which go through dashboard rot, this dashboard was viewed on a consistent cadence (see below).</p>
@@ -170,7 +186,7 @@
   </div>
 
   <div class="row d-flex justify-content-center">
-    <div class="col-md-12">
+    <div class="col-md-10">
       <img src='img/sqa-desktop-impact.png' alt="xxx" class="desktopImg">
       <img src='img/sqa-mobile-impact.png' alt="xxx" class="mobileImg">
     </div>
